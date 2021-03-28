@@ -40,9 +40,8 @@ export default class InstructionText extends React.Component {
             - Requirement: writing a minimum of 1 story in each of two rounds that meets our minimum quality criteria.<br/>
             &nbsp; &nbsp; - Length: at least 200 words <br/>
             <br/>
-            <b>Bonus payment: $1 per additional story or high-quality story</b><br/>
-            - Case 1: writing a story that satisfies our high quality criteria.<br/>
-            - Case 2: writing a story in addition to the minimum of 1 story in each round.<br/>
+            <b>Bonus payment: $1 per additional story</b><br/>
+            - Requirement: writing a story that meets our minimum quality criteria in addition to the minimum of 1 story in each round.<br/>
             &nbsp; &nbsp; - Please refer to the examples below for criteria of quality.<br/>
             <br/>
             ex) Payment for writing 1 quality story in round 1 and 1 quality stories in round 2 = 4 = $4<br/>
