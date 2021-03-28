@@ -31,6 +31,7 @@ Empirica.gameInit(game => {
   game.players.forEach((player, i) => {
     player.set("avatar", `/avatars/jdenticon/${player._id}`);
     player.set("score", {score1: 0, score2: 0});
+    player.round.set("drafts", [])
     console.log("gameinit");
   });
 

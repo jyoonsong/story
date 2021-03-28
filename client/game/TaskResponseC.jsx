@@ -5,7 +5,12 @@ import {
 } from "@blueprintjs/core";
 import { IconNames } from "@blueprintjs/icons";
 
+
+
 export default class TaskResponseC extends React.Component {
+
+  drafts = this.props.round.data.drafts;
+
   constructor(props) {
     super(props);
     this.submitRef = React.createRef();
@@ -34,10 +39,9 @@ export default class TaskResponseC extends React.Component {
   handleSkip = () => {
       const { selected } = this.state;
       const { round } = this.props;
-      const drafts = round.data.drafts;
       let newSelected = selected + 1;
 
-      if (selected >= 0 && selected < drafts.length - 1) {
+      if (selected >= 0 && selected < this.drafts.length - 1) {
         this.setState(prevState => ({
             ...prevState,
             selected: newSelected,
@@ -54,9 +58,8 @@ export default class TaskResponseC extends React.Component {
   handleConfirm = () => {
     const { selected, stories } = this.state;
     const { round, player } = this.props;
-    const drafts = round.data.drafts;
     
-    const newStories = [...stories, drafts[selected].content]
+    const newStories = [...stories, this.drafts[selected].content]
 
     console.log(newStories)
 
@@ -66,7 +69,9 @@ export default class TaskResponseC extends React.Component {
             confirmed: true,
             stories: newStories,
         }), () => {
+          const currentDrafts = player.round.get("draft")
           player.round.set("value", newStories);
+          player.round.set("drafts", currentDrafts.push(this.drafts[selected].id))
           localStorage.setItem("confirmed", true);
         });
     }
@@ -163,18 +168,18 @@ export default class TaskResponseC extends React.Component {
     return result.length;
   }
 
-  renderDraft = (draft) => {
+  renderDraft = (draft, index) => {
     const { selected } = this.state;
 
     let classes = "draft";
-    if (selected == draft.id)  
+    if (selected == index)  
         classes = "draft selected";
     
     return (
-        <div className={classes} key={draft.id}>
-            <b>Draft {draft.id + 1}</b> &nbsp;
+        <div className={classes} key={index}>
+            <b>Draft {index + 1}</b> &nbsp;
             {draft.content.substring(0,100)}...<br/>
-            {selected == draft.id ? "" : <button className="btn" onClick={() => this.handleSelect(draft.id)}>View this draft</button>}
+            {selected == index ? "" : <button className="btn" onClick={() => this.handleSelect(index)}>View this draft</button>}
         </div>
     )
   }
@@ -239,7 +244,6 @@ export default class TaskResponseC extends React.Component {
   render() {
     const { player, stage, round } = this.props;
     const { numOfWords, selected, confirmed, stories, submitted } = this.state;
-    const drafts = round.data.drafts;
 
     // If the player already submitted, don't show the slider or submit button
     if (player.stage.submitted) {
@@ -279,7 +283,7 @@ export default class TaskResponseC extends React.Component {
             :
             <div className="task-response-form">
                 <div className="selected-draft">
-                    {drafts[selected].content}
+                    {this.drafts[selected].content}
                 </div>
                 <button className="green" onClick={this.handleConfirm}>Use this draft</button>
                 <button className="orange" onClick={this.handleSkip}>Skip this draft</button>
@@ -288,7 +292,7 @@ export default class TaskResponseC extends React.Component {
 
         <div className={confirmed ? "archive confirmed" : "archive"}>
             <h4>All drafts</h4>
-            {drafts.map(this.renderDraft)}
+            {this.drafts.map((d, i) => this.renderDraft(d, i))}
         </div>
         
       </div>
