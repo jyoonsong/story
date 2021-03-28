@@ -52,7 +52,7 @@ export default class ExitSurvey extends React.Component {
           <h1> Exit Survey (optional) </h1>
             <h3>
               Please submit the following code to receive the payment back on Mechanical Turk:{" "}
-              <strong>{player._id}</strong>
+              <strong className="red">{player._id}</strong>
             </h3>
             
           <br />
