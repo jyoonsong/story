@@ -66,7 +66,7 @@ export default class InstructionText extends React.Component {
 
               "Yes," Lily admitted; "it is funny." Then she asked him: "What makes you think you know so much about me?"<br/><br/>
 
-              Max laughed at her question: "What makes you think I know so much about myself?" he countered; but his question was not answered because suddenly they realized that they were in love and that everything else had been just talk before that moment when they stood looking at each other in the bright light of a street lamp on Friday night at eleven-thirty when everyone else was dancing and having fun but them...<br/><br/>
+              Max laughed at her question: "What makes you think I know so much about myself?" he countered, but his question was not answered because suddenly they realized that they were in love and that everything else had been just talk before that moment when they stood looking at each other in the bright light of a street lamp on Friday night at eleven-thirty when everyone else was dancing and having fun but them...<br/><br/>
 
             </div>
             <div className="good example">
