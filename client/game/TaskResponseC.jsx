@@ -69,9 +69,9 @@ export default class TaskResponseC extends React.Component {
             confirmed: true,
             stories: newStories,
         }), () => {
-          const currentDrafts = player.round.get("draft")
+          const currentDrafts = player.get("useddrafts")
           player.round.set("value", newStories);
-          player.round.set("drafts", currentDrafts.push(this.drafts[selected].id))
+          player.set("useddrafts", currentDrafts.push(this.drafts[selected].id))
           localStorage.setItem("confirmed", true);
         });
     }
@@ -215,7 +215,6 @@ export default class TaskResponseC extends React.Component {
     if (player) {
       const currentValue = player.round.get("value");
 
-      console.log(player.get("score"));
       console.log(game.get("score"));
 
       if (!currentValue || currentValue.length == 0) {

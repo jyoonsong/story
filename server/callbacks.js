@@ -21,6 +21,8 @@ Empirica.onStageEnd((game, round, stage) => {});
 // onRoundEnd is triggered after each round.
 // It receives the same options as onGameEnd, and the round that just ended.
 Empirica.onRoundEnd((game, round) => {
+  const score = game.get("score");
+  game.set("score", score);
 });
 
 // onGameEnd is triggered when the game ends.

@@ -40,7 +40,7 @@ export default class Identification extends Component {
                             id="id"
                             value={id}
                             onChange={this.handleUpdate}
-                            placeholder="e.g. A1HXXXXXXXXX"
+                            placeholder="e.g., A1HXXXXXXXXX"
                             required
                             autoComplete="off"
                         />

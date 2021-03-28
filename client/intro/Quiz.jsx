@@ -35,7 +35,7 @@ export default class Quiz extends React.Component {
                 dir="auto"
                 id="sum"
                 name="sum"
-                placeholder="e.g. John"
+                placeholder="e.g., john"
                 value={sum}
                 onChange={this.handleChange}
                 autoComplete="off"
@@ -51,7 +51,7 @@ export default class Quiz extends React.Component {
                 dir="auto"
                 id="horse"
                 name="horse"
-                placeholder="e.g. 40"
+                placeholder="e.g., 40"
                 value={horse}
                 onChange={this.handleChange}
                 autoComplete="off"
