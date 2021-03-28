@@ -87,7 +87,7 @@ export default class Round extends React.Component {
           localStorage.setItem("confirmed", "");
           player.exit("Thanks")
         }
-      }, 15 * 60 * 1000);
+      }, 5 * 60 * 1000);
     }
 
     return (
