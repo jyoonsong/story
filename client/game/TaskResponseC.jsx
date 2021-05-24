@@ -71,9 +71,9 @@ export default class TaskResponseC extends React.Component {
         }), () => {
           player.round.set("value", newStories);
 
-          let currentDrafts = player.get("useddrafts")
+          let currentDrafts = player.round.get("useddrafts")
           currentDrafts.push(this.drafts[selected].id)
-          player.set("useddrafts", currentDrafts);
+          player.round.set("useddrafts", currentDrafts);
 
           localStorage.setItem("confirmed", true);
         });
@@ -214,6 +214,8 @@ export default class TaskResponseC extends React.Component {
 
   componentDidMount() {
     const { player, game } = this.props;
+
+    player.round.set("condition", "C")
 
     if (player) {
       const currentValue = player.round.get("value");

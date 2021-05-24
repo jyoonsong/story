@@ -15,7 +15,7 @@ export default class Task extends React.Component {
   }
 
   componentDidMount() {
-    const { game } = this.props;
+    const { game, player } = this.props;
 
     // if CA, change isAfirst to false
     if (game.treatment.order == 1) {

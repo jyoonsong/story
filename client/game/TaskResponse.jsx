@@ -121,7 +121,7 @@ export default class TaskResponse extends React.Component {
   componentDidMount() {
     const { player } = this.props;
 
-    console.log(this.props);
+    player.round.set("condition", "A")
 
     if (player) {
       const currentValue = player.round.get("value");
