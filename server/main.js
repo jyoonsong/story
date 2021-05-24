@@ -30,7 +30,9 @@ Array.prototype.shuffle = function() {
 Empirica.gameInit(game => {
   game.players.forEach((player, i) => {
     player.set("avatar", `/avatars/jdenticon/${player._id}`);
-    player.round.set("useddrafts", [])
+    player.set("useddrafts", [])
+    player.set("logs", [])
+
     console.log("gameinit");
   });
 

@@ -1,4 +1,5 @@
 import React from "react";
+import {TimeSync} from 'meteor/mizzao:timesync';
 
 import {
   Callout, Intent,
@@ -27,6 +28,12 @@ export default class TaskResponseC extends React.Component {
   
 
   handleSelect = (id) => {
+    const { player } = this.props;
+
+    let logs = player.get("logs");
+    logs.push({"type": "click_draft", "content": id, "time": TimeSync.serverTime()})
+    player.set("logs", logs);
+
     if (id >= 0) {
         this.setState(prevState => ({
             ...prevState,
@@ -38,8 +45,12 @@ export default class TaskResponseC extends React.Component {
 
   handleSkip = () => {
       const { selected } = this.state;
-      const { round } = this.props;
+      const { round, player } = this.props;
       let newSelected = selected + 1;
+
+      let logs = player.get("logs");
+      logs.push({"type": "skip_draft", "content": selected, "time": TimeSync.serverTime()})
+      player.set("logs", logs);
 
       if (selected >= 0 && selected < this.drafts.length - 1) {
         this.setState(prevState => ({
@@ -58,6 +69,10 @@ export default class TaskResponseC extends React.Component {
   handleConfirm = () => {
     const { selected, stories } = this.state;
     const { round, player } = this.props;
+
+    let logs = player.get("logs");
+    logs.push({"type": "confirm_draft", "content": selected, "time": TimeSync.serverTime()})
+    player.set("logs", logs);
     
     const newStories = [...stories, this.drafts[selected].content]
 
@@ -71,9 +86,9 @@ export default class TaskResponseC extends React.Component {
         }), () => {
           player.round.set("value", newStories);
 
-          let currentDrafts = player.round.get("useddrafts")
+          let currentDrafts = player.get("useddrafts")
           currentDrafts.push(this.drafts[selected].id)
-          player.round.set("useddrafts", currentDrafts);
+          player.set("useddrafts", currentDrafts);
 
           localStorage.setItem("confirmed", true);
         });
@@ -84,6 +99,10 @@ export default class TaskResponseC extends React.Component {
   handleBack = () => {
     const { stories } = this.state;
     const { player } = this.props;
+
+    let logs = player.get("logs");
+    logs.push({"type": "cancel_draft", "content": "", "time": TimeSync.serverTime()})
+    player.set("logs", logs);
 
     const newStories = stories.filter((s, i) => i != stories.length - 1)
     console.log(newStories);
@@ -154,6 +173,10 @@ export default class TaskResponseC extends React.Component {
       player.round.set("value", newStories);
       this.props.handleScore(newStories.length, round.index);
 
+      let logs = player.get("logs");
+      logs.push({"type": "finish_edit", "content": newStories.length, "time": TimeSync.serverTime()})
+      player.set("logs", logs);
+
     }
   }
 
@@ -162,6 +185,10 @@ export default class TaskResponseC extends React.Component {
 
     localStorage.setItem("confirmed", "");
     this.props.player.stage.submit();
+
+    let logs = player.get("logs");
+    logs.push({"type": "finish_round", "content": ""})
+    player.set("logs", logs);
   };
 
   countWords = (str) => {
