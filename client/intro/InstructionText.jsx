@@ -8,8 +8,8 @@ export default class InstructionText extends React.Component {
 
     const text1 = (!game || game.treatment.order == 0) ? (
       <span>
-        <b>In round 1, you will write as many short love stories from scratch, for 15 minutes (required).</b><br/>
-        <b>In round 2, you will write as many short love stories by editing one of the drafts provided, for 15 minutes (required).</b><br/>
+        <b>In round 1, you will write as many short love stories as you can starting from nothing each time (15 minutes, required).</b><br/>
+        <b>In round 2, you will write as many short love stories as you can starting with a previously written draft each time (15 minutes, required).</b><br/>
         <br/>
       </span>
     ): (
@@ -36,16 +36,17 @@ export default class InstructionText extends React.Component {
 
           <h3>Payment</h3>
           <p className="instruction-text">
-            <b>Base payment: $4 for participation</b><br/>
-            - Requirement: writing a minimum of 1 story in each of two rounds that meets our minimum quality criteria.<br/>
+            <b>Base payment: $1 for participation</b><br/>
+            - Requirement: writing a minimum of 1 story in each of two rounds.<br/>
             &nbsp; &nbsp; - Length: at least 200 words <br/>
             <br/>
-            <b>Bonus payment: $1 per additional story</b><br/>
+            <b>Bonus payment: $2 per additional story</b><br/>
             - Requirement: writing a story that meets our minimum quality criteria in addition to the minimum of 1 story in each round.<br/>
+            &nbsp; &nbsp; - Length: at least 200 words <br/>
             &nbsp; &nbsp; - Please refer to the examples below for criteria of quality.<br/>
             <br/>
-            ex) Payment for writing 1 quality story in round 1 and 1 quality stories in round 2 = 4 = $4<br/>
-            ex) Payment for writing 4 quality stories in round 1 and 4 quality stories in round 2 = 4 + 6 * 1 = $10<br/>
+            ex) Payment for writing 1 quality story in round 1 and 1 quality stories in round 2 = $1<br/>
+            ex) Payment for writing 4 quality stories in round 1 and 4 quality stories in round 2 = 1 + 6 * 2 = $13<br/>
             ex) Payment for writing 2 quality stories in round 1 only = $0<br/>
             ex) Payment for writing 1 unacceptable story in round 1 and 1 unacceptable story in round 2 = $0<br/>
           </p>

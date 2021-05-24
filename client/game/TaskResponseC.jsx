@@ -69,9 +69,12 @@ export default class TaskResponseC extends React.Component {
             confirmed: true,
             stories: newStories,
         }), () => {
-          const currentDrafts = player.get("useddrafts")
           player.round.set("value", newStories);
-          player.set("useddrafts", currentDrafts.push(this.drafts[selected].id))
+
+          let currentDrafts = player.get("useddrafts")
+          currentDrafts.push(this.drafts[selected].id)
+          player.set("useddrafts", currentDrafts);
+
           localStorage.setItem("confirmed", true);
         });
     }
