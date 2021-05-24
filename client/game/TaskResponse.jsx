@@ -74,14 +74,24 @@ export default class TaskResponse extends React.Component {
       this.props.handleScore(newStories.length - 1, round.index);
       // player.round.set("scores", newStories.length);
 
+      let logs = player.get("logs");
+      logs.push({"type": "finish_edit", "content": newStories.length - 1, "time": TimeSync.serverTime()})
+      player.set("logs", logs);
+
     }
   }
 
   handleSubmit = (e) => {
+    const { player } = this.props;
+
     e.preventDefault();
 
     localStorage.setItem("confirmed", "");
-    this.props.player.stage.submit();
+    player.stage.submit();
+
+    let logs = player.get("logs");
+    logs.push({"type": "finish_round", "content": ""})
+    player.set("logs", logs);
   };
 
   countWords = (str) => {
