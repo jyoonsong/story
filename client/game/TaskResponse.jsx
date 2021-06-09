@@ -86,12 +86,12 @@ export default class TaskResponse extends React.Component {
 
     e.preventDefault();
 
-    localStorage.setItem("confirmed", "");
-    player.stage.submit();
-
     let logs = player.get("logs");
     logs.push({"type": "finish_round", "content": ""})
     player.set("logs", logs);
+
+    localStorage.setItem("confirmed", "");
+    player.stage.submit();
   };
 
   countWords = (str) => {

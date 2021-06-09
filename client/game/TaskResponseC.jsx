@@ -10,8 +10,6 @@ import { IconNames } from "@blueprintjs/icons";
 
 export default class TaskResponseC extends React.Component {
 
-  drafts = this.props.round.data.drafts;
-
   constructor(props) {
     super(props);
     this.submitRef = React.createRef();
@@ -22,6 +20,7 @@ export default class TaskResponseC extends React.Component {
       stories: [],
       confirmed: localStorage.getItem("confirmed") || false,
       submitted: false,
+      drafts: this.props.round.data.drafts
     };
   }
 
@@ -44,7 +43,7 @@ export default class TaskResponseC extends React.Component {
   }
 
   handleSkip = () => {
-      const { selected } = this.state;
+      const { selected, drafts } = this.state;
       const { round, player } = this.props;
       let newSelected = selected + 1;
 
@@ -52,7 +51,7 @@ export default class TaskResponseC extends React.Component {
       logs.push({"type": "skip_draft", "content": selected, "time": TimeSync.serverTime()})
       player.set("logs", logs);
 
-      if (selected >= 0 && selected < this.drafts.length - 1) {
+      if (selected >= 0 && selected < drafts.length - 1) {
         this.setState(prevState => ({
             ...prevState,
             selected: newSelected,
@@ -67,14 +66,14 @@ export default class TaskResponseC extends React.Component {
   }
 
   handleConfirm = () => {
-    const { selected, stories } = this.state;
+    const { selected, stories, drafts } = this.state;
     const { round, player } = this.props;
 
     let logs = player.get("logs");
     logs.push({"type": "confirm_draft", "content": selected, "time": TimeSync.serverTime()})
     player.set("logs", logs);
     
-    const newStories = [...stories, this.drafts[selected].content]
+    const newStories = [...stories, drafts[selected].content]
 
     console.log(newStories)
 
@@ -86,8 +85,10 @@ export default class TaskResponseC extends React.Component {
         }), () => {
           player.round.set("value", newStories);
 
+          console.log(player.round.get("value"))
+
           let currentDrafts = player.get("useddrafts")
-          currentDrafts.push(this.drafts[selected].id)
+          currentDrafts.push(drafts[selected].id)
           player.set("useddrafts", currentDrafts);
 
           localStorage.setItem("confirmed", true);
@@ -140,7 +141,7 @@ export default class TaskResponseC extends React.Component {
   handleNext = (e) => {
     e.preventDefault();
 
-    const { numOfWords, stories } = this.state;
+    const { numOfWords, stories, drafts, selected } = this.state;
     const { player, round } = this.props;
 
     if (numOfWords < 200)
@@ -152,6 +153,7 @@ export default class TaskResponseC extends React.Component {
       // add story to state array
       const newStories = [...stories]
       console.log(newStories);
+      const newDrafts = drafts.filter((s, i) => i != selected)
 
       this.setState(prevState => ({
         ...prevState,
@@ -159,6 +161,7 @@ export default class TaskResponseC extends React.Component {
         stories: newStories,
         submitted: true,
         numOfWords: 0,
+        drafts: newDrafts,
       }), () => {
         setTimeout(() => {
           if (this.state.submitted) {
@@ -183,12 +186,14 @@ export default class TaskResponseC extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
 
-    localStorage.setItem("confirmed", "");
-    this.props.player.stage.submit();
+    const { player } = this.props;
 
     let logs = player.get("logs");
     logs.push({"type": "finish_round", "content": ""})
     player.set("logs", logs);
+
+    localStorage.setItem("confirmed", "");
+    player.stage.submit();
   };
 
   countWords = (str) => {
@@ -274,7 +279,7 @@ export default class TaskResponseC extends React.Component {
 
   render() {
     const { player, stage, round } = this.props;
-    const { numOfWords, selected, confirmed, stories, submitted } = this.state;
+    const { numOfWords, selected, confirmed, stories, submitted, drafts } = this.state;
 
     // If the player already submitted, don't show the slider or submit button
     if (player.stage.submitted) {
@@ -314,7 +319,7 @@ export default class TaskResponseC extends React.Component {
             :
             <div className="task-response-form">
                 <div className="selected-draft">
-                    {this.drafts[selected].content}
+                    {drafts[selected].content}
                 </div>
                 <button className="green" onClick={this.handleConfirm}>Use this draft</button>
                 <button className="orange" onClick={this.handleSkip}>Skip this draft</button>
@@ -323,7 +328,7 @@ export default class TaskResponseC extends React.Component {
 
         <div className={confirmed ? "archive confirmed" : "archive"}>
             <h4>All drafts</h4>
-            {this.drafts.map((d, i) => this.renderDraft(d, i))}
+            {drafts.map((d, i) => this.renderDraft(d, i))}
         </div>
         
       </div>
