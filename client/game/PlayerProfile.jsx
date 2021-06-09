@@ -32,7 +32,7 @@ export default class PlayerProfile extends React.Component {
         {score1 == 0 ? 
           <span>$0 <br/><small>*You need to write at least 1 story in each round</small></span>
         :
-          <span>$4 ~ ${4 + score1 + score2}</span>
+          <span>$1 ~ ${1 + 2 * (score1 + score2)}</span>
         }
         <br/>
         <small>{score1 != 0 && score2 == 0? "*Only if you write at least 1 story in round 2" : ""}</small>
