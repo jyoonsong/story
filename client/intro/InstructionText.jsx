@@ -8,14 +8,14 @@ export default class InstructionText extends React.Component {
 
     const text1 = (!game || game.treatment.order == 0) ? (
       <span>
-        <b>In round 1, you will write as many short love stories as you can starting from nothing each time (15 minutes, required).</b><br/>
-        <b>In round 2, you will write as many short love stories as you can starting with a previously written draft each time (15 minutes, required).</b><br/>
+        <b>In round 1, you will write as many short love stories from scratch, for 30 minutes (required).</b><br/>
+        <b>In round 2, you will write as many short love stories by editing one of the drafts provided, for 30 minutes (required).</b><br/>
         <br/>
       </span>
     ): (
       <span>
-        <b>In round 1, you will write as many short love stories by editing one of the drafts provided, for 15 minutes (required).</b><br/>
-        <b>In round 2, you will write as many short love stories from scratch, for 15 minutes (required).</b><br/>
+        <b>In round 1, you will write as many short love stories by editing one of the drafts provided, for 30 minutes (required).</b><br/>
+        <b>In round 2, you will write as many short love stories from scratch, for 30 minutes (required).</b><br/>
         <br/>
       </span>
     );
@@ -27,7 +27,7 @@ export default class InstructionText extends React.Component {
           <h3>Task</h3>
           <p className="instruction-text">
             Your task is to write a minimum of 1 short love story (at least 200 words) in each of two rounds.<br/>
-            You must stay in the system for a total of 30 minutes (15 minutes for each round).<br/>
+            You must stay in the system for a total of 1 hour (30 minutes for each round).<br/>
             <br/>
             {text1}
             If you are idle or offline for more than 2 minutes, the task will be suspended and you will NOT get any reward.<br/>
