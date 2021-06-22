@@ -58,7 +58,7 @@ export default class ExitSurvey extends React.Component {
           <br />
           <p>
             Please answer the following short survey. You do not have to provide
-            any information you feel uncomfortable with.
+            any information you feel uncomfortable providing.
           </p>
           <form onSubmit={this.handleSubmit}>
             <div className="form-line">
