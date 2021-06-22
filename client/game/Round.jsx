@@ -67,33 +67,33 @@ export default class Round extends React.Component {
     const { game, round, stage, player } = this.props;
     const { score1, score2 } = this.state;
 
-    if (this.timeout && !(player.idle || !player.online)) {
-      clearTimeout(this.t1);
-      clearTimeout(this.t2);
-      console.log("timeout cleared");
-      this.timeout = false;
-    }
-    else if (!this.timeout && (player.idle || !player.online)) {
-      this.timeout = true;
-      console.log("timeout set")
+    // if (this.timeout && !(player.idle || !player.online)) {
+    //   clearTimeout(this.t1);
+    //   clearTimeout(this.t2);
+    //   console.log("timeout cleared");
+    //   this.timeout = false;
+    // }
+    // else if (!this.timeout && (player.idle || !player.online)) {
+    //   this.timeout = true;
+    //   console.log("timeout set")
 
-      this.t1 = setTimeout(() => {
-        alert("If you are idle or offline for more than 3 minutes, the task will be cancelled.")
-      }, 1 * 60 * 1000);
+    //   this.t1 = setTimeout(() => {
+    //     alert("If you are idle or offline for more than 3 minutes, the task will be cancelled.")
+    //   }, 1 * 60 * 1000);
 
-      // TODO: change this to 3 minutes
-      this.t2 = setTimeout(() => {
-        if (player.idle || !player.online) {
-          localStorage.setItem("confirmed", "");
-          player.exit("Thanks")
-        }
-      }, 5 * 60 * 1000);
-    }
+    //   // TODO: change this to 3 minutes
+    //   this.t2 = setTimeout(() => {
+    //     if (player.idle || !player.online) {
+    //       localStorage.setItem("confirmed", "");
+    //       player.exit("Thanks")
+    //     }
+    //   }, 5 * 60 * 1000);
+    // }
 
     return (
       <div className="round">
 
-        {player.idle || !player.online?
+        {/* {player.idle || !player.online?
             <Callout
               icon={IconNames.ERROR}
               intent={Intent.DANGER}
@@ -103,7 +103,7 @@ export default class Round extends React.Component {
             </Callout>
           :
           ""
-        }
+        } */}
         <About {...this.props}/>
         <div className="content">
           <PlayerProfile player={player} stage={stage} game={game} score1={score1} score2={score2}/>
