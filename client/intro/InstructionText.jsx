@@ -8,14 +8,14 @@ export default class InstructionText extends React.Component {
 
     const text1 = (!game || game.treatment.order == 0) ? (
       <span>
-        <b>In round 1, you will write as many short love stories as you can from scratch for 30 minutes (required).</b><br/>
-        <b>In round 2, you will write as many short love stories as you can by editing one of the drafts provided for 30 minutes (required).</b><br/>
+        <b>In round 1, you will write as many short love stories as you can from scratch for 60 minutes (required).</b><br/>
+        <b>In round 2, you will write as many short love stories as you can by editing one of the drafts provided for 60 minutes (required).</b><br/>
         <br/>
       </span>
     ): (
       <span>
-        <b>In round 1, you will write as many short love stories as you can by editing one of the drafts provided, for 30 minutes (required).</b><br/>
-        <b>In round 2, you will write as many short love stories as you can from scratch, for 30 minutes (required).</b><br/>
+        <b>In round 1, you will write as many short love stories as you can by editing one of the drafts provided, for 60 minutes (required).</b><br/>
+        <b>In round 2, you will write as many short love stories as you can from scratch, for 60 minutes (required).</b><br/>
         <br/>
       </span>
     );
@@ -26,8 +26,8 @@ export default class InstructionText extends React.Component {
 
           <h3>Task</h3>
           <p className="instruction-text">
-            Your task is to write a minimum of 1 short love story (at least 200 words) in each of two rounds.<br/>
-            You must stay in the system for a total of 1 hour (30 minutes for each round).<br/>
+            Your task is to write a minimum of 1 short love story (at least 100 words) in each of two rounds.<br/>
+            You must stay in the system for a total of 1 hour (60 minutes for each round).<br/>
             <br/>
             {text1}
             After completing the two rounds, you will get a code. Once you submit this code back at Upwork messenger, you will receive your payment.
@@ -35,19 +35,19 @@ export default class InstructionText extends React.Component {
 
           <h3>Payment</h3>
           <p className="instruction-text">
-            <b>Base payment: $1 for participation</b><br/>
+            <b>Base payment: $50 for participation</b><br/>
             - Requirement: write a minimum of 1 story in each of two rounds.<br/>
-            &nbsp; &nbsp; - Length: at least 200 words <br/>
+            &nbsp; &nbsp; - Length: at least 100 words <br/>
             <br/>
             <b>Bonus payment: $2 per additional story</b><br/>
             - Requirement: write a story that meets our minimum quality criteria in addition to meeting our base requirement of writing at least 1 story in each of two rounds.<br/>
-            &nbsp; &nbsp; - Length: at least 200 words <br/>
+            &nbsp; &nbsp; - Length: at least 100 words <br/>
             &nbsp; &nbsp; - Please refer to the examples below for our criteria of quality.<br/>
             <br/>
-            Ex. Payment for writing 1 quality story in round 1 and 1 quality story in round 2 = $1<br/>
+            {/* Ex. Payment for writing 1 quality story in round 1 and 1 quality story in round 2 = $1<br/>
             Ex. Payment for writing 4 quality stories in round 1 and 4 quality stories in round 2 = 1 + 6 * 2 = $13<br/>
             Ex. Payment for writing 2 quality stories in round 1 only = $0<br/>
-            Ex. Payment for writing 1 unacceptable story in round 1 and 1 unacceptable story in round 2 = $0<br/>
+            Ex. Payment for writing 1 unacceptable story in round 1 and 1 unacceptable story in round 2 = $0<br/> */}
           </p>
 
           <h3>Examples</h3>
