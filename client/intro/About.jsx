@@ -17,7 +17,7 @@ export default class About extends React.Component {
   render() {
     return <>
             <Button
-              text="Instruction"
+              text="Instructions"
               minimal
               icon={IconNames.info_sign}
               onClick={this.handleToggleAbout}
@@ -28,7 +28,7 @@ export default class About extends React.Component {
               icon={IconNames.INBOX}
               isOpen={this.state.isAboutOpen}
               onClose={this.handleToggleAbout}
-              title="Instruction"
+              title="Instructions"
             >
               <div className={Classes.DIALOG_BODY}>
                 <InstructionText {...this.props}/>
