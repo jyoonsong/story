@@ -29,7 +29,7 @@ export default class Identification extends Component {
                         <h1>Identification</h1>
 
                         <p>
-                            Please enter your Worker ID:
+                            Please enter your name on Upwork:
                         </p>
 
                         <input
@@ -40,14 +40,10 @@ export default class Identification extends Component {
                             id="id"
                             value={id}
                             onChange={this.handleUpdate}
-                            placeholder="e.g., A1HXXXXXXXXX"
+                            placeholder="e.g., John Doe"
                             required
                             autoComplete="off"
                         />
-
-                        <div>
-                            <small>You can find your Worker ID on the top left corner of mTurk website.</small><br/><br/>
-                        </div>
 
                         <p className="button-holder">
                             <button type="submit">Submit</button>
