@@ -13,7 +13,7 @@ export default class Quiz extends React.Component {
   handleSubmit = event => {
     event.preventDefault();
 
-    if (this.state.sum !== "max" || this.state.horse !== "30") {
+    if (this.state.sum !== "max" || this.state.horse !== "60") {
       alert("Incorrect! Read the instructions, and please try again.");
     } else {
       this.props.onNext();
@@ -44,7 +44,7 @@ export default class Quiz extends React.Component {
             </p>
             <p>
               <label htmlFor="horse">
-                You must write as many stories as you can for XX minutes in total. What is the correct number for XX?
+                You must write as many stories as you can for XX minutes in each round. What is the correct number for XX?
               </label>
               <input
                 type="text"
