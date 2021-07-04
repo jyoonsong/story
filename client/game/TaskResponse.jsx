@@ -44,8 +44,8 @@ export default class TaskResponse extends React.Component {
     const { numOfWords, stories } = this.state;
     const { player, round } = this.props;
 
-    if (numOfWords < 200)
-      alert("The story is less than 200 words.");
+    if (numOfWords < 100)
+      alert("The story is less than 100 words.");
     else {
       // add story to state array
       const newStories = [...stories, ""]

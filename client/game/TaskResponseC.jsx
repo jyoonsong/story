@@ -144,8 +144,8 @@ export default class TaskResponseC extends React.Component {
     const { numOfWords, stories, drafts, selected } = this.state;
     const { player, round } = this.props;
 
-    if (numOfWords < 200)
-      alert("The story is less than 200 words.");
+    if (numOfWords < 100)
+      alert("The story is less than 100 words.");
     else {
       localStorage.setItem("confirmed", "");
 
