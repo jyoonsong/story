@@ -13,7 +13,7 @@ export default class Quiz extends React.Component {
   handleSubmit = event => {
     event.preventDefault();
 
-    if (this.state.sum !== "max" || this.state.horse !== "60") {
+    if (this.state.sum !== "max" || this.state.horse !== "30") {
       alert("Incorrect! Read the instructions, and please try again.");
     } else {
       this.props.onNext();

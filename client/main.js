@@ -2,7 +2,8 @@ import Empirica from "meteor/empirica:core";
 import { render } from "react-dom";
 import ExitSurvey from "./exit/ExitSurvey";
 import Thanks from "./exit/Thanks";
-import Quiz from "./intro/Quiz";
+// import Quiz from "./intro/Quiz";
+import Training from "./intro/Training";
 import Round from "./game/Round";
 import Instruction from "./intro/Instruction";
 import Identification from "./intro/Identification";
@@ -19,7 +20,7 @@ Empirica.newPlayer(Identification);
 // At this point they have been assigned a treatment. You can return
 // different instruction steps depending on the assigned treatment.
 Empirica.introSteps((game, treatment) => {
-  const steps = [Instruction, Quiz];
+  const steps = [Instruction, Training];
   return steps;
 });
 
