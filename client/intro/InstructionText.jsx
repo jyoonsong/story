@@ -8,14 +8,14 @@ export default class InstructionText extends React.Component {
 
     const text1 = (!game || game.treatment.order == 0) ? (
       <span>
-        <b>In round 1, you will write as many short love stories as you can from scratch for 30 minutes (required).</b><br/>
-        <b>In round 2, you will write as many short love stories as you can by editing one of the drafts provided for 30 minutes (required).</b><br/>
+        In round 1 (30 minutes), you will write as many stories as you can <b>from scratch.</b><br/>
+        In round 2 (30 minutes), you will write as many stories as you can <b>by editing the drafts provided.</b><br/>
         <br/>
       </span>
     ): (
       <span>
-        <b>In round 1, you will write as many short love stories as you can by editing one of the drafts provided, for 30 minutes (required).</b><br/>
-        <b>In round 2, you will write as many short love stories as you can from scratch, for 30 minutes (required).</b><br/>
+        In round 1 (30 minutes), you will write as many stories as you can <b>by editing the drafts provided.</b><br/>
+        In round 2 (30 minutes), you will write as many stories as you can <b>from scratch.</b><br/>
         <br/>
       </span>
     );
@@ -24,10 +24,15 @@ export default class InstructionText extends React.Component {
         <div>
           <h1>Instructions</h1>
 
+          <p className="instruction-text">
+            You should NOT start this job unless you have about 90 minutes of uninterrupted time to work on this task, because you will NOT receive payment unless you complete the whole job in one session.
+          </p>
+
           <h3>Task</h3>
           <p className="instruction-text">
-            Your task is to write a minimum of 1 short love story (150 ~ 250 words) in each of two rounds.<br/>
-            You must stay in the system for a total of 1 hour (30 minutes for each round).<br/>
+            This experiment involves writing short love stories that might be used, for example, as part of a service that provides subscribers with a new short love story every day. <br/>
+            Your task is to write as many short love stories as you can in each of two rounds. <br/>
+            The stories should be about 200 words each (between 150 and 250 words).<br/>
             <br/>
             {text1}
             After completing the two rounds, you will get a code. Once you submit this code back at Upwork messenger, you will receive your payment.
@@ -35,69 +40,19 @@ export default class InstructionText extends React.Component {
 
           <h3>Payment</h3>
           <p className="instruction-text">
-            <b>Base payment: $50 for participation</b><br/>
-            - Requirement: write a minimum of 1 story in each of two rounds.<br/>
-            &nbsp; &nbsp; - Length: within the range of 150 ~ 250 words <br/>
+            <b>Base payment: $20 for participation</b><br/>
+            - Requirements: 
+            &nbsp; &nbsp; - Pass a quiz that teaches you how to recognize what we consider “good” stories for the purpose of this experiment<br/>
+            &nbsp; &nbsp; - Write as many good 150- to 250-word stories as you can in each of the two 30-minute rounds.<br/>
             <br/>
-            <b>Bonus payment: $2 per additional story</b><br/>
-            - Requirement: write a story that meets our minimum quality criteria in addition to meeting our base requirement of writing at least 1 story in each of two rounds.<br/>
-            &nbsp; &nbsp; - Length: within the range of 150 ~ 250 words <br/>
-            &nbsp; &nbsp; - Please refer to the examples below for our criteria of quality.<br/>
+            <b>Bonus payment: $2 per each good story</b><br/>
+            - Requirement: If you meet our base payment requirements (above), you will also be paid $3 for each story you write story that meets our criteria for "good" stories.<br/>
             <br/>
             {/* Ex. Payment for writing 1 quality story in round 1 and 1 quality story in round 2 = $1<br/>
             Ex. Payment for writing 4 quality stories in round 1 and 4 quality stories in round 2 = 1 + 6 * 2 = $13<br/>
             Ex. Payment for writing 2 quality stories in round 1 only = $0<br/>
             Ex. Payment for writing 1 unacceptable story in round 1 and 1 unacceptable story in round 2 = $0<br/> */}
           </p>
-
-          <h3>Examples</h3>
-          <div className="instruction-text examples">
-            <div className="good example">
-              <div className="label">Example of a quality story</div>
-              Lily was bored. It was Friday night and she had to be at the dance hall in half an hour, but she didn't want to go. She was tired of dancing every night and she didn't like the boys who were always asking her out. Max was there, though, and he always asked her to dance, so Lily decided to stay a little while longer. She liked Max. He was the only one who ever had a conversation with her, and she thought he might ask her out if she stayed long enough.<br/><br/>
-
-              "Let's go for a walk," Max suggested as he came up to Lily. "It's hot in here."<br/><br/>
-
-              "All right," Lily said gladly. "But I have to be back by ten."<br/><br/>
-
-              They walked up and down the avenue, talking comfortably about everything and anything, until finally they found themselves looking at each other with amused grins on their faces.<br/><br/>
-
-              "We've been through this before," Max said, indicating all that they had talked about on their walk up the avenue; then he added: "But isn't it funny how you can enjoy talking about yourself?"<br/><br/>
-
-              "Yes," Lily admitted; "it is funny." Then she asked him: "What makes you think you know so much about me?"<br/><br/>
-
-              Max laughed at her question: "What makes you think I know so much about myself?" he countered, but his question was not answered because suddenly they realized that they were in love and that everything else had been just talk before that moment when they stood looking at each other in the bright light of a street lamp on Friday night at eleven-thirty when everyone else was dancing and having fun but them...<br/><br/>
-
-            </div>
-            <div className="good example">
-              <div className="label">Example of a quality story</div>
-              Max and Lily were at a party. They were both bored. They sat on a sofa together.<br/><br/>
-
-              "I'm sorry I'm boring you," Max said.<br/>
-              "Don't be so silly," Lily said, "You’re not boring me at all!"<br/><br/>
-
-              "Let's go for a walk," said Max.<br/>
-              "Yes, let's," Lily answered.<br/><br/>
-
-              So they went out for a walk in the dark street. It was spring and warm enough to walk without an overcoat. They walked very slowly, and they talked about themselves and their friends and what fun it was to be young and in love with somebody. Suddenly Max stopped walking and seized her by the arm. "I think I'm in love with you," he said, in amazement at himself or at her, or both of them together in the night under the trees that smelled like lilac and fresh bread.<br/><br/>
-
-            </div>
-            {/* <div className="bad example">
-            <div className="label">Example of a story that will NOT be paid</div>
-              <b>Pasting the same phrases or sentences</b>:
-              Lily and Max met each other in a party. Then they talked and laughed and talked and laughed and talked and laughed and talked and laughed together.<br/><br/>
-
-              <b>Copying a famous story</b>:
-              It was 12 o'clock when Cinderella met the prince. He was tall, handsome man with a brown hair.<br/><br/>
-
-              <b>Not making sense at all</b>:
-              Lily met Max on Friday. Ten years later, they married. Then they divorced, and Lily fell in love with Eric.<br/><br/>
-
-              <b>Not in english</b>:
-              Iaculis, habitant facilisis nullam<br/><br/>
-
-            </div> */}
-          </div>
         </div>
     );
   }
