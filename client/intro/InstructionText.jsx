@@ -35,7 +35,6 @@ export default class InstructionText extends React.Component {
             The stories should be about 200 words each (between 150 and 250 words).<br/>
             <br/>
             {text1}
-            After completing the two rounds, you will get a code. Once you submit this code back at Upwork messenger, you will receive your payment.
           </p>
 
           <h3>Payment</h3>

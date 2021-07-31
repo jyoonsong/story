@@ -29,7 +29,7 @@ export default class Identification extends Component {
                         <h1>Identification</h1>
 
                         <p>
-                            Please enter your name on Upwork:
+                            Please enter your name:
                         </p>
 
                         <input
