@@ -39,12 +39,12 @@ export default class InstructionText extends React.Component {
 
           <h3>Payment</h3>
           <p className="instruction-text">
-            <b>Base payment: $20 for participation</b><br/>
+            <b>Base payment: $30 for participation</b><br/>
             - Requirements: 
             &nbsp; &nbsp; - Pass a quiz that teaches you how to recognize what we consider “good” stories for the purpose of this experiment<br/>
             &nbsp; &nbsp; - Write as many good 150- to 250-word stories as you can in each of the two 30-minute rounds.<br/>
             <br/>
-            <b>Bonus payment: $2 per each good story</b><br/>
+            <b>Bonus payment: $3 per each good story</b><br/>
             - Requirement: If you meet our base payment requirements (above), you will also be paid $3 for each story you write story that meets our criteria for "good" stories.<br/>
             <br/>
             {/* Ex. Payment for writing 1 quality story in round 1 and 1 quality story in round 2 = $1<br/>
