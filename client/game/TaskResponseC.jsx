@@ -145,7 +145,7 @@ export default class TaskResponseC extends React.Component {
     const { player, round } = this.props;
 
     if (numOfWords < 150 || numOfWords > 250)
-      alert("The story should be within the range of 150 ~ 200 words.");
+      alert("The story should be within the range of 150 ~ 250 words.");
     else {
       localStorage.setItem("confirmed", "");
 

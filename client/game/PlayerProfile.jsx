@@ -9,7 +9,7 @@ export default class PlayerProfile extends React.Component {
     const { player } = this.props;
     return (
       <div className="profile-score">
-        <p><b>Your Worker ID</b>: {player.id}<br/><br/></p>
+        <p><b>Your Name</b>: {player.id}<br/><br/></p>
       </div>
     );
   }

@@ -45,7 +45,7 @@ export default class TaskResponse extends React.Component {
     const { player, round } = this.props;
 
     if (numOfWords < 150 || numOfWords > 250)
-      alert("The story is within the range of 150 ~ 200 words.");
+      alert("The story is within the range of 150 ~ 250 words.");
     else {
       // add story to state array
       const newStories = [...stories, ""]
