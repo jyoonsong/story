@@ -18,6 +18,10 @@ export default class Training extends React.Component {
 
     if ((el.value === "yes" && answer >= 2.5) || (el.value === "no" && answer < 2.5)) {
         newCount = count + 1;
+        alert("Correct!");
+    }
+    else {
+      alert("Wrong!")
     }
 
     this.setState(prevState => ({
@@ -49,10 +53,18 @@ export default class Training extends React.Component {
         <div className="quiz">
             <h1>Quiz: The definition of a "good" story in this experiment</h1>
             <p className="quiz-instruction">
-                In this quiz, you should guess whether a story is good or not considering the definition of a "good" story in this experiment. If you guess <b>5 stories correct in a row</b>, you pass this quiz and will be eligible to participate in this experiment.<br/>
-                You need to ask the following two questions in order to judge whether a story is good or not.<br/><br/>
+                This quiz teaches you how to recognize what we consider "good" stories for the purpose of this experiment. 
+                For each story, you will guess whether the story is "good" or not and then be told whether you were right or wrong. 
+                When you guess <b>5 stories correctly in a row</b>, you will pass the quiz and be eligible to participate in the rest of the experiment.<br/>
+                <br/>
+                You need to ask yourself the following questions in order to judge whether a story is "good" for the purposes of this experiment.<br/>
+                <br/>
                 1. Is this a love story?<br/>
-                2. Is this publishable? <br/><br/>
+                2. Is this story reasonably well-written? <br/>
+                3. Would people who generally enjoy reading love stories enjoy reading this story?<br/>
+                4. Does this story contain errors or mistakes that would make it not suitable for publication in its current form (e.g., grammatical errors, logical flaws, incomplete sentences)? <br/>
+                <br/>
+                If the answers to the first three questions are "yes," and the answer to the last question is "no," then the story is probably a "good" story.
                 If the answer for both these questions is "yes", then the story is probably a "good" story. <br/>
                 Specifically, a bad story would be not well-written and most people who generally enjoy reading short love stories would not enjoy reading it. Or it could also be a story that is reasonably well-written but contains some errors or mistakes.
                 On the other hand, a good story would be a well-written story that most people would enjoy reading.<br/><br/>

@@ -8,6 +8,10 @@ export const trainingStories = [
         answer: 4.0
     }, 
     {
+        story: `We were sitting in the front room, watching a film, when she said, “I’ve been thinking.” I turned to her. “About what?” She looked at me. “About…you know…the future.” I felt a tightness in my chest. “What about it?”  She shrugged. “It just seems to me that we don’t have one, not really. Not together, anyway. You know what I mean? We just seem to be going from day to day, and then when we get to the end of the day we start all over again tomorrow. And then one day we won’t be able to start again tomorrow, because there won’t be any more tomorrows for us – you know what I mean? There won’t be any more of anything for us – you and me – because there won’t be any more of us for anything else…or anyone else…or anyone else…or anyone else…or anyone else…or anyone else…or anyone else...not ever again...ever ever ever ever again...because there won't be anymore people...or animals...or trees...or oceans... or sunsets... or anything like that...no more people or animals or trees or oceans or sunsets for us because there won't be anymore people or animals or trees or oceans or sunsets for anybody ever again! And that's what I've been thinking about! That's what I've been thinking about! Because it's scary! Because it's scary! Because it's scary!" `,
+        answer: 1.5
+    },
+    {
         story: `We met in October outside an old book store. We collided and his drink spilled all over my new sweater. He asked me out, and I said yes.
     
     In December, we started dating. Turns out he wasn’t as much of an idiot as I first thought. We spent the holidays together, scheming about telling kids in the park that Santa wasn’t real after all.
@@ -22,6 +26,17 @@ export const trainingStories = [
     
     Now it’s October once more, and I venture to the book store nearly every day, and always leave with nothing but literature and a clean sweater.`,
         answer: 4.0
+    }, 
+
+    {
+        story: `"I’d been at the party for a couple of hours, but I was still on my own. I’d been to parties like this before, but they always ended the same way: me standing alone in the corner, watching everyone else having fun. They were all couples, talking to each other, laughing and smiling. I just stood there on the edge of the room, looking out at them. I was feeling really low when she walked in.
+    
+     She looked around for a moment and then made her way over to me. “Hi!” she said brightly. “I’m Sarah! What’s your name?” “I’m … er … David,” I said. “Nice to meet you! David, do you want to dance? It looks like you could do with some cheering up!” I was shocked, but somehow mumbled a “yes.”  We danced to the obnoxiously loud music for a few minutes, and then we talked for hours. We had so much in common; we were both single parents; we both liked dancing; we both liked going to the gym; we both loved our kids; we both liked watching films together on rainy Sundays; we both wanted to travel more … We were so similar it was scary – it felt like meeting myself from another universe! We went home together that night and have been together ever since."`,
+        answer: 2.5
+    }, 
+    {
+        story: `I’d seen her, the girl with the golden eyes, in my dreams many times. But this time she was in front of me, and I was staring into those eyes, those hypnotic eyes. She had golden hair and a soft face like a flower, but her eyes were like jewels. I couldn’t stop looking at them. She smiled at me and said that she had heard about me. I stared at her lips, and she laughed and told me that she had fallen in love with me through my writings.  Then she asked for a kiss.  We were sitting on the bench overlooking the river, staring into each other's eyes when I kissed her for the first time. It was like kissing fire: warm and wild and burning deep inside me. She looked into my eyes as if trying to find something in there that only she could see, then kissed me again with even more intensity than before. I was floating away from myself when suddenly she pushed me away with all her might and said: “You are not him! You are not him!”`,
+        answer: 2.5
     }, 
     {
         story: `The girl was a star, and the boy was a satellite, orbiting her. She was his sun, his center, his light. She was the one he wanted to be near, to bask in her glow. When they kissed, it was like two stars colliding--the girl's lips an explosion of supernovas, the boy's mouth a black hole sucking everything in. 
@@ -43,12 +58,20 @@ export const trainingStories = [
         answer: 4.0
     }, 
     {
+        story: `We sat in the car, the engine running. She was crying. I’d never seen her cry before. “What’s wrong?” I asked, but she just shook her head. She didn’t want to talk about it. “Come on, you can tell me,” I said. “I won’t be angry or anything. I promise. What is it?”  She sniffed and wiped her nose on the back of her hand and looked at me with red eyes that were just like mine, except hers were sad and mine were happy because I was in love with her and she was in love with me and we were going to get married one day and have children together and grow old together and die together. And so we sat there for a while longer until she started to cry again, but this time she wasn’t crying because something was wrong, she was crying because something was right: she loved me and I loved her and we were going to get married one day and have children together and grow old together and die together!`,
+        answer: 2.0
+    }, 
+    {
         story: `The night was dark and dreary. It had been raining for days, and the wind howled in the trees like a wounded animal. I sat in my car, parked outside her house, staring at the light in her bedroom window. I had to see her one last time before I left for good. 
     
     As I watched her silhouette move around in her window, I felt my heart swell with longing. I couldn’t bear it any longer. The pain of not being with her was too much. She was everything to me, and I knew that she felt the same way about me. But we were too young to be together; we had our whole lives ahead of us, and circumstance had driven us apart. We had agreed that this would be best for both of us – and yet, here I was, unwilling to let go. I wanted, desperately, to go in, to sweep her off her feet. The two of us could elope into our own world, our own fantasy. For a second, my hand shot out at the car door handle, but I hesitated. Reality awaited.
     
     She would never know how much it hurt me to leave her behind, but I knew that she would understand why I had to go – she always understood me better than anyone else ever could. And so I waited in my car until the light went out in her bedroom window. Then, I drove away into the night.`,
         answer: 4.0
+    }, 
+    {
+        story: `I was on the top deck of the bus, looking down at the city. The streets were empty. It was Sunday morning and everyone was at home, in bed, sleeping off their hangovers. But I could see a light on in a window, and a shadow moving across the curtains. I imagined them lying there together, his arm around her waist, her head on his shoulder. He would be stroking her hair, or maybe just staring at her face as she slept. Maybe he would be thinking about how much he loved her; maybe he would be thinking about how much he hated himself for loving her. I looked away from the window and stared down at my feet. They were resting on the seat in front of me, but I could feel them touching hers: cold feet against warm feet; cold feet against warm skin; cold skin against warm skin; cold skin against warm blood…`,
+        answer: 2.0
     }, 
     {
         story: `They painted not with acrylic or oil, but with madness.
@@ -70,6 +93,15 @@ export const trainingStories = [
         story: `I go to the beach early on Sunday mornings, before the crowds come. The tide at a certain point between low and high is full of these tiny sea creatures, they are like glass beads. I’ve never known their name, but they are pink and shiny and translucent, so that you can see through them, into their purest selves. I'd sing to them sometimes as we sat there watching the sun rise. That was before he came along, this handsome man he was far too good for me looking like one of those pirates from the old films who appear by chance in your life and steal away your insides with a look. He started walking with me down to the beach at night, to see how many of them there were as we sat on our towels talking about anything that didn't matter very much. Now we live together in some town where no one knows us having packed up our bags left everything behind because all that mattered was each other and being able to be entwined together like those sea creatures who become together all at once becoming what they could not be alone: wholesome and alive. It may sound fanciful but it happened just that way; who would have thought?`,
         answer: 3.75
     }, 
+
+    {
+        story: `“I’m sorry,” I said. “ I was wrong.” “No, you weren’t wrong,” she said. “You were right. You were right about everything. I just didn’t want to see it. I just wanted to be happy for once in my life. But it wasn’t real. It was never real,” she whispered, trembling.
+    
+     “Now it will never be real again, because you don’t want me anymore and I don’t want you anymore and we can never go back to what we had before because it was all a lie. We were both lying to each other and we can never trust each other again because of that. Maybe if we were honest, if you were different, if I was different, we could have made it work.” Her voice broke,  and neither of us spoke for a while.
+    
+    Suddenly, she stood tall and looked me in the eyes. “There is no point in talking about it or thinking about it or trying to make things better or trying to make things worse. We are over, we are finished, and now it’s time to say goodbye." Just like that, she was gone.`,
+        answer: 2.333333333
+    }, 
     {
         story: `It would be so much easier if I hated you, but when I think about the time we shared and the memories we created, all I can remember are the good times. I struggle to recall the sleepless nights filled with twists and turns due to your horrible words, the tears shed over your blatant apathy, the torture I endured wondering if you would call in the morning. No, I can’t seem to make those memories overshadow the others, no matter how hard I try.
     
@@ -82,6 +114,13 @@ export const trainingStories = [
     I smile to myself as I imagine you learning italian on your laptop, teaching yourself to “cook” family recipes, or even the brief 3 AM workout phase. I can’t help but chuckle remembering the night where I wandered downstairs to find you doing burpees on the kitchen floor. My family did warn me about marrying an insomniac, but I just couldn’t listen, I couldn’t stay away. I found your inability to sleep charming, fascinated by the adventures you had taken while the rest of the world was quiet.  So, I pull my pillow close, turn back around, and begin to drift off again. Wait a minute, do I hear a guitar? Or is that a banjo? Please don’t let this new hobby last too long.`,
         answer: 3.666666667
     }, 
+
+    {
+        story: `A long time ago, when I was a kid, I had a crush on a girl. I didn’t know her name or which apartment she lived in, but I knew she lived in the same building as me. One day, I saw her in the lift. She was wearing a red dress and smiling at me when she said “Hello.” It was a seemingly insignificant greeting, but my insides were on fire when I stepped onto my floor. The next day, I told my friends about her and they laughed at me. They said she didn’t exist and that I had imagined it all. But I knew better than them, because she was real. 
+    
+    Eventually, I went to the lift every single day and pressed every button until someone got in – it could be anyone – and then looked for her in the mirror behind them: but there was no one there except for me and my reflection. Then one day, when everyone else was out playing football in the sweltering heat, I went up to my apartment to grab some cold drinks. I accidentally got off the lift two floors below mine, my brain a bit foggy from the summer weather. As I turned around though, there  she was! She smiled at me again and said: ‘I knew I’d see you again eventually!’ Twenty years later, I still wonder about the girl in the red dress.`,
+        answer: 2.333333333
+    }, 
     {
         story: `As I sit down on the sofa with tonight’s frozen dinner for one, I hear the dying branches of the maple tree tap on the nearby window. My neck snaps in that direction, the muscles in my body remembering as well as my brain how you used to knock on that same window to let me know you had finished cleaning the gutters, mowing the lawn, or “fixing” that broken porch step.
     
@@ -93,6 +132,12 @@ export const trainingStories = [
     
     And so they sat side by side, watching in the night sky the history of their love story play out until its end. Perhaps it was bittersweet--reminiscing about what once was--but more than anything, it was their way of getting closure- visualizing the fragments of their love dissipate into the nothingness. With their hands on the cold rooftop, their pinkies touched ever so slightly, as if to feel the corpse of the spark between them one last time as final confirmation of the end of their romance. And in the night, the abyss between them grew larger and larger with an uncharacteristic calm, eventually swallowing them both into its black seas.`,
         answer: 3.666666667
+    }, 
+    {
+        story: `It was the first time I had ever seen her. I had been in town for only a few days, and I was walking through the market when I saw her, painted on the side of a building, a beautiful woman with long dark hair and eyes that seemed to follow me as I walked by. It was late in the day, and people were beginning to stroll out of their offices and head home for dinner. The street lights were starting to come on.
+    
+    I looked back at the woman’s picture again: she was beautiful, but there was something sad about her too. As I looked at her, a man came up beside me and tapped me on the shoulder. “Excuse me, sir?” he said. “I couldn’t help noticing you looking at that picture there. Do you like it?” He pointed to the exquisite  woman in  the painting. “I don’t think I’ve ever loved a real woman as much as I love her” I said as I continued to admire her deep eyes and chestnut locks. The man took  the painting off the wall and handed it to me. As I looked at him in shock, he simply said “if you love it that much, it was always meant to be yours. `,
+        answer: 2.333333333
     }, 
     {
         story: `They stood there at the shore, her feet numb in the cold ocean waters and his snuggled in warm sand. Between them, the shoreline wave moved gently back and forth with a rhythmic quiet. 
@@ -112,6 +157,11 @@ export const trainingStories = [
         story: `“You’re such a sweetheart,” he said.  She shrugged. “I’m not really, you know.”  “What do you mean? You are.”  “I’m not. I can be mean to you sometimes, and I don’t mean to be. But I can be cruel too. You know that don’t you? It’s just my nature, I think.”  He smiled at her, his eyes soft and kind as he said, “It doesn't matter how cruel you are to me, because I love you anyway. And I will never stop loving you no matter what happens between us in the future because I will always love you now and forever and evermore. After all, isn't that what love is about? Loving someone for who they are even when they're being cruel to you? Even when they might hurt you or leave you or die one day? Loving someone for who they are even when they might steal your heart away from your chest and break it into a million pieces so tiny that there aren't even words anymore for all the ways in which it hurts? Loving someone no matter what they do or say or think of themselves because true love is unconditional and infinite even though we may only have a limited time on this earth to express it before we die… And then there's nothing left but memories of love… But at least those memories will last forever until the end of time itself… Because that's the magic of love: It never dies."`,
         answer: 3.5
     }, 
+
+    {
+        story: `The next morning I got up early and made myself a cup of coffee. I sat in my armchair in the living room, drinking it, and watched the dawn come up over the hills. I had no idea what time Toby would wake up, but I didn’t care. I was just happy to be there, at home. When he did finally wake up, he came down the stairs wearing just his pants and a t-shirt. He walked over to me and kissed me on the cheek, then he went into the kitchen to make himself some coffee. “Good morning!” he said with a big smile on his face. “It is now!” I replied cheerily back at him. He looked at me for a moment with that same smile still plastered across his face, then he threw his arms around me and squeezed me tight. He held me for maybe half a minute, before letting go of me and walking away back into the kitchen to make himself some coffee. “You know what?” he said as he walked away from me toward the kitchen countertop where his coffee maker was sitting all by itself on top of its own little square table. “You know what?”`,
+        answer: 2.25
+    }, 
     {
         story: `As much as I loved her the cancer really took its toll. When she was diagnosed I knew straight away that there was no treatment for her. I had to wait and watch and the things I wanted to say to her would never be said. So instead of saying all of the things I should have said to her I took up carving, carving wooden planes that swooped through the sky, carving a little bird with a broken wing, some wooden roses that never grew, the whole world in pieces. By the time my mother died we couldn’t afford anything but limestone for her grave so it’s just a plain one, with only my initial carved on it. Every time I look at it though I want to carve more letters onto it but they always seem insignificant compared to what is written on my heart. And now on lonely nights when I stare into those cold grey stony eyes it feels like she could almost be just another gentle breeze in the yellowing London trees until the falling leaves create a storm where she lies resting, and you see right then that she has left me forsaken by death alone.`,
         answer: 3.5
@@ -129,6 +179,13 @@ export const trainingStories = [
     
     Perhaps then, the decay started from within. From me tearing my way out of the mannequin body, destroying the obedient housewife he’d built- and with her death came the collapse of our marriage.`,
         answer: 3.333333333
+    }, 
+
+    {
+        story: `It was a long time ago, I was still a young man. I had just arrived in the city, and it was my first day at work. I had been hired by the Ministry of Agriculture to be a translator for the farmers who came to town to sell their produce. It was a hard job, but it paid well, and it gave me plenty of time to explore the city. As I walked through the market one day, I saw her: she was sitting alone on a bench, watching people go past.
+    
+     She had dark hair and big eyes; she looked sad and lost. I went over and asked if she was okay; she simply replied that she was fine. We started talking, and we got along really well; we talked about everything – our families, our dreams, our lives – we were really enjoying each other’s company. Then, suddenly, she said that she had to go home; her mother would be worried about her. She told me that she lived far away from town, but that we could meet up again if I wanted to visit her some time. We exchanged phone numbers and addresses before saying goodbye; then we went our separate ways.`,
+        answer: 2.0
     }, 
     {
         story: `I’ve never understood runners. Why someone would voluntarily arise at the crack of dawn to jog for an hour was beyond me. Maybe that’s because I was never able to complete the mile in middle school, or chase down my friends during tag, as I’m not exactly the most coordinated person to ever exist. Regardless, I’ve never understood runners, until I met him.
@@ -192,56 +249,5 @@ export const trainingStories = [
     Exhibit IV. I don’t remember exactly how it ended, but I remember even in those last moments that should have only belonged to us, she was there, an unshakable presence cradled inside your arms, blinking at me. Apparently, you found my tears, my red-faced anger, picture-worthy. You loved her far more than you loved me, far more than you will ever love anyone. And perhaps in the end, you will die with that camera of yours- I wonder then, will the life you saved inside of her be worth all those you lost in its place?`,
         answer: 3.0
     }, 
-    {
-        story: `"I’d been at the party for a couple of hours, but I was still on my own. I’d been to parties like this before, but they always ended the same way: me standing alone in the corner, watching everyone else having fun. They were all couples, talking to each other, laughing and smiling. I just stood there on the edge of the room, looking out at them. I was feeling really low when she walked in.
     
-     She looked around for a moment and then made her way over to me. “Hi!” she said brightly. “I’m Sarah! What’s your name?” “I’m … er … David,” I said. “Nice to meet you! David, do you want to dance? It looks like you could do with some cheering up!” I was shocked, but somehow mumbled a “yes.”  We danced to the obnoxiously loud music for a few minutes, and then we talked for hours. We had so much in common; we were both single parents; we both liked dancing; we both liked going to the gym; we both loved our kids; we both liked watching films together on rainy Sundays; we both wanted to travel more … We were so similar it was scary – it felt like meeting myself from another universe! We went home together that night and have been together ever since."`,
-        answer: 2.5
-    }, 
-    {
-        story: `I’d seen her, the girl with the golden eyes, in my dreams many times. But this time she was in front of me, and I was staring into those eyes, those hypnotic eyes. She had golden hair and a soft face like a flower, but her eyes were like jewels. I couldn’t stop looking at them. She smiled at me and said that she had heard about me. I stared at her lips, and she laughed and told me that she had fallen in love with me through my writings.  Then she asked for a kiss.  We were sitting on the bench overlooking the river, staring into each other's eyes when I kissed her for the first time. It was like kissing fire: warm and wild and burning deep inside me. She looked into my eyes as if trying to find something in there that only she could see, then kissed me again with even more intensity than before. I was floating away from myself when suddenly she pushed me away with all her might and said: “You are not him! You are not him!”`,
-        answer: 2.5
-    }, 
-    {
-        story: `“I’m sorry,” I said. “ I was wrong.” “No, you weren’t wrong,” she said. “You were right. You were right about everything. I just didn’t want to see it. I just wanted to be happy for once in my life. But it wasn’t real. It was never real,” she whispered, trembling.
-    
-     “Now it will never be real again, because you don’t want me anymore and I don’t want you anymore and we can never go back to what we had before because it was all a lie. We were both lying to each other and we can never trust each other again because of that. Maybe if we were honest, if you were different, if I was different, we could have made it work.” Her voice broke,  and neither of us spoke for a while.
-    
-    Suddenly, she stood tall and looked me in the eyes. “There is no point in talking about it or thinking about it or trying to make things better or trying to make things worse. We are over, we are finished, and now it’s time to say goodbye." Just like that, she was gone.`,
-        answer: 2.333333333
-    }, 
-    {
-        story: `A long time ago, when I was a kid, I had a crush on a girl. I didn’t know her name or which apartment she lived in, but I knew she lived in the same building as me. One day, I saw her in the lift. She was wearing a red dress and smiling at me when she said “Hello.” It was a seemingly insignificant greeting, but my insides were on fire when I stepped onto my floor. The next day, I told my friends about her and they laughed at me. They said she didn’t exist and that I had imagined it all. But I knew better than them, because she was real. 
-    
-    Eventually, I went to the lift every single day and pressed every button until someone got in – it could be anyone – and then looked for her in the mirror behind them: but there was no one there except for me and my reflection. Then one day, when everyone else was out playing football in the sweltering heat, I went up to my apartment to grab some cold drinks. I accidentally got off the lift two floors below mine, my brain a bit foggy from the summer weather. As I turned around though, there  she was! She smiled at me again and said: ‘I knew I’d see you again eventually!’ Twenty years later, I still wonder about the girl in the red dress.`,
-        answer: 2.333333333
-    }, 
-    {
-        story: `It was the first time I had ever seen her. I had been in town for only a few days, and I was walking through the market when I saw her, painted on the side of a building, a beautiful woman with long dark hair and eyes that seemed to follow me as I walked by. It was late in the day, and people were beginning to stroll out of their offices and head home for dinner. The street lights were starting to come on.
-    
-    I looked back at the woman’s picture again: she was beautiful, but there was something sad about her too. As I looked at her, a man came up beside me and tapped me on the shoulder. “Excuse me, sir?” he said. “I couldn’t help noticing you looking at that picture there. Do you like it?” He pointed to the exquisite  woman in  the painting. “I don’t think I’ve ever loved a real woman as much as I love her” I said as I continued to admire her deep eyes and chestnut locks. The man took  the painting off the wall and handed it to me. As I looked at him in shock, he simply said “if you love it that much, it was always meant to be yours. `,
-        answer: 2.333333333
-    }, 
-    {
-        story: `The next morning I got up early and made myself a cup of coffee. I sat in my armchair in the living room, drinking it, and watched the dawn come up over the hills. I had no idea what time Toby would wake up, but I didn’t care. I was just happy to be there, at home. When he did finally wake up, he came down the stairs wearing just his pants and a t-shirt. He walked over to me and kissed me on the cheek, then he went into the kitchen to make himself some coffee. “Good morning!” he said with a big smile on his face. “It is now!” I replied cheerily back at him. He looked at me for a moment with that same smile still plastered across his face, then he threw his arms around me and squeezed me tight. He held me for maybe half a minute, before letting go of me and walking away back into the kitchen to make himself some coffee. “You know what?” he said as he walked away from me toward the kitchen countertop where his coffee maker was sitting all by itself on top of its own little square table. “You know what?”`,
-        answer: 2.25
-    }, 
-    {
-        story: `We sat in the car, the engine running. She was crying. I’d never seen her cry before. “What’s wrong?” I asked, but she just shook her head. She didn’t want to talk about it. “Come on, you can tell me,” I said. “I won’t be angry or anything. I promise. What is it?”  She sniffed and wiped her nose on the back of her hand and looked at me with red eyes that were just like mine, except hers were sad and mine were happy because I was in love with her and she was in love with me and we were going to get married one day and have children together and grow old together and die together. And so we sat there for a while longer until she started to cry again, but this time she wasn’t crying because something was wrong, she was crying because something was right: she loved me and I loved her and we were going to get married one day and have children together and grow old together and die together!`,
-        answer: 2.0
-    }, 
-    {
-        story: `I was on the top deck of the bus, looking down at the city. The streets were empty. It was Sunday morning and everyone was at home, in bed, sleeping off their hangovers. But I could see a light on in a window, and a shadow moving across the curtains. I imagined them lying there together, his arm around her waist, her head on his shoulder. He would be stroking her hair, or maybe just staring at her face as she slept. Maybe he would be thinking about how much he loved her; maybe he would be thinking about how much he hated himself for loving her. I looked away from the window and stared down at my feet. They were resting on the seat in front of me, but I could feel them touching hers: cold feet against warm feet; cold feet against warm skin; cold skin against warm skin; cold skin against warm blood…`,
-        answer: 2.0
-    }, 
-    {
-        story: `It was a long time ago, I was still a young man. I had just arrived in the city, and it was my first day at work. I had been hired by the Ministry of Agriculture to be a translator for the farmers who came to town to sell their produce. It was a hard job, but it paid well, and it gave me plenty of time to explore the city. As I walked through the market one day, I saw her: she was sitting alone on a bench, watching people go past.
-    
-     She had dark hair and big eyes; she looked sad and lost. I went over and asked if she was okay; she simply replied that she was fine. We started talking, and we got along really well; we talked about everything – our families, our dreams, our lives – we were really enjoying each other’s company. Then, suddenly, she said that she had to go home; her mother would be worried about her. She told me that she lived far away from town, but that we could meet up again if I wanted to visit her some time. We exchanged phone numbers and addresses before saying goodbye; then we went our separate ways.`,
-        answer: 2.0
-    }, 
-    {
-        story: `We were sitting in the front room, watching a film, when she said, “I’ve been thinking.” I turned to her. “About what?” She looked at me. “About…you know…the future.” I felt a tightness in my chest. “What about it?”  She shrugged. “It just seems to me that we don’t have one, not really. Not together, anyway. You know what I mean? We just seem to be going from day to day, and then when we get to the end of the day we start all over again tomorrow. And then one day we won’t be able to start again tomorrow, because there won’t be any more tomorrows for us – you know what I mean? There won’t be any more of anything for us – you and me – because there won’t be any more of us for anything else…or anyone else…or anyone else…or anyone else…or anyone else…or anyone else…or anyone else...not ever again...ever ever ever ever again...because there won't be anymore people...or animals...or trees...or oceans... or sunsets... or anything like that...no more people or animals or trees or oceans or sunsets for us because there won't be anymore people or animals or trees or oceans or sunsets for anybody ever again! And that's what I've been thinking about! That's what I've been thinking about! Because it's scary! Because it's scary! Because it's scary!" `,
-        answer: 1.5
-    }
 ]

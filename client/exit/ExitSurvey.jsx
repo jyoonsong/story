@@ -58,7 +58,7 @@ export default class ExitSurvey extends React.Component {
           <br />
           <p>
             Please answer the following short survey. You do not have to provide
-            any information you feel uncomfortable providing.
+            any information you don't want to.
           </p>
           <form onSubmit={this.handleSubmit}>
             <div className="form-line">
@@ -211,7 +211,7 @@ export default class ExitSurvey extends React.Component {
             <div className="form-line thirds">
               <div>
                 <label htmlFor="strength">
-                  <b>How would you describe your strength in writing stories?</b>
+                  <b>How would you describe your strengths and weaknesses in writing stories?</b>
                 </label>
                 <div>
                   <textarea
@@ -225,7 +225,7 @@ export default class ExitSurvey extends React.Component {
               </div>
               <div>
                 <label htmlFor="feedback">
-                  <b>Feedback, including problems you encountered.</b>
+                  <b>Did you have any problems with using this system or doing this experiment?</b>
                 </label>
                 <div>
                   <textarea
