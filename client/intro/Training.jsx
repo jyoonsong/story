@@ -57,7 +57,7 @@ export default class Training extends React.Component {
                 Specifically, a bad story would be not well-written and most people who generally enjoy reading short love stories would not enjoy reading it. Or it could also be a story that is reasonably well-written but contains some errors or mistakes.
                 On the other hand, a good story would be a well-written story that most people would enjoy reading.<br/><br/>
 
-                Currently, you got {count} correct in a row<br/>
+                <b>Currently, you got {count} correct in a row</b><br/>
             </p>
 
             <p><b>Is the following story good or not?</b></p>

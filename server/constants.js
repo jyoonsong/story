@@ -1,894 +1,302 @@
 export const drafts = [
 {
 id: 0,
-finish_reason: "length",
-openai_id: "cmpl-2iO7bVu0epHFNOhfe93to38md1dQV",
-model: "if-davinci-v2",
-content: `Lily was on her way to a party. She didn't want to go. It was Friday night, and all she wanted to do was stay in her room and read. She walked up to the entrance of the dance hall and looked inside, wondering if she should just leave.
-
-Suddenly, Max walked up by her side. "I don't want to go in either," he said with a sigh.
-
-Lily smiled at him; "Why not?" she asked curiously, but Max just shrugged his shoulders.
-"It's Saturday tomorrow," Lily said after a moment of silence between them, "what are you going to do?"
-
-"Read," he said simply, shoving his hands deep into his pockets.
-"You're not going to read all day are you?" Lily laughed. "Besides, it's too hot in there for reading." Max laughed with her as they walked down the avenue together, talking about everything and anything until they found themselves looking`
+finish_reason: "stop",
+content: "The man's eyes were the color of a stormy sky and his hair was the color of a raven's wing. He was tall and broad shouldered, like a tree, with arms that could hold her tight. She fell in love with him at first sight, and she knew that he felt the same. They had so much in common: they both loved to read, they both loved to travel, they both loved to dance. They spent hours talking about their favorite books, their favorite places, their favorite music. They talked about all the places they wanted to go together: Paris, Venice, Rome' Their wedding day was a glorious affair. It was held in an ancient church with stained glass windows and high vaulted ceilings. The guests were dressed in their finest clothes and jewels glittered on every finger. There were flowers everywhere: roses for love; lilies for beauty; irises for royalty; tulips for devotion; daffodils for innocence; lilies of the valley for purity'",
 },
 {
 id: 1,
 finish_reason: "stop",
-openai_id: "cmpl-2iODRdyITKIraOFKVoonGx4kHfyXp",
-model: "if-davinci-v2",
-content: `Caroline and Terry both went to the same college and they had been taking classes together for the past three semesters. They had never spoken, but one day they passed each other in the hallway.
-
-"Hey," said Terry. "I just wanted to say that I think you're really pretty."
-
-Caroline blushed and responded, "Thank you."
-Terry asked if she wanted to get some coffee later, but Caroline told him she couldn't because of her class schedule.
-
-The next day, Terry walked up to Caroline again in the hallway and they started talking. They both got coffee after class and hung out together for a while. They talked about their interests and who they wanted to be when they grew up.
-Terry asked Caroline on a date later that week and she said yes. 
-They ended up dating for 6 months until he broke her heart by cheating on her with his best friend's girlfriend`
+content: "In the morning, the girl and the boy were still in bed. The boy was snoring softly, his face buried in a pillow. The girl was staring at the ceiling, her eyes wide open. They had been up all night, talking. The girl had told him about her childhood, growing up in a small town with her father and mother. She told him about how she used to play with dolls and how she used to pretend they were real children that she could take care of. She told him about how she used to imagine her dolls were real children that needed taking care of. She told him about how she had started to imagine that real children needed taking care of. He listened carefully, but he didn't say much, just asked questions when he didn't understand something or when he wanted more details or if she wanted to stop talking for a while because it was getting late or if there was anything else that she wanted to tell him or if there was anything else that he wanted to ask her or if there was anything else at all that they wanted to do together now or later or ever again.",
 },
 {
 id: 2,
 finish_reason: "stop",
-openai_id: "cmpl-2iOFYv236Fnh6UNqE0f1SdJ6VAjNP",
-model: "davinci:2020-05-03",
-content: `"I love you," Max said to Lily.
-
-"Oh, I know you do," she answered. "You're always trying to kiss me."
-
-"That's because I love you."
-"I think it's because you think I'm pretty."
-"Well, aren't you?" he laughed. "And I love you for it."
-“For being pretty?" she asked him with a smile. “How silly!"
-“No," Max told her, “for not knowing that you are pretty." And he kissed her, right there on the corner where they were standing in the afternoon sun.
-
-`
+content: "I was a girl who loved to read. I read every book in the library, every book in the school, and then the books in my father's study. My father was a writer, so there were many books. He would sit me on his knee and read to me from his work in progress. Sometimes he would let me help him with the research, or even write a sentence or two. The words were like magic, and I was always amazed that they came out of him. One day he took me to meet his publisher at a book fair. They talked for a long time about his work-in-progress, and then they talked about my writing. My father was very proud of me, but he had never told anyone else about my stories before. The publisher said that I should be writing my own books instead of helping my father with his work-in-progress!",
 },
 {
 id: 3,
 finish_reason: "stop",
-openai_id: "cmpl-2iOGjwVW3tVfgJUYZB0ojKkYcyjEv",
-model: "davinci:2020-05-03",
-content: `He saw her picture in the magazine and he knew she was the one for him. It was Sunday and the magazine lay on his desk where he worked as an editor, so when he had finished his work he took her picture with him to the library and there he spent the whole day looking at her picture.
-
-He put it into a frame. He bought a new shirt in order to match her eyes because they were blue like his. And one day when no one was at home, he kissed her picture because it was raining and no one could see him through glass of the rain-bow that she brought inside him with her blue eyes because she liked books and so did he; they both liked old books, especially those that had been written by writers who were dead for a long time as their love would be too.
-
-The next day when no one was at home again, the woodpeckers outside were knocking on trees with their little beaks, but inside him everything was silent without her so he decided to cut out an oval piece of cardboard from an old box in order to make a frame which would be more beautiful than his love for paperbacks which nobody reads anymore except lovers of first editions who know what it means to kiss ink off paper while waiting for publishers' replies, or death...
-`
+content: "The first time I saw her, she was standing in the rain, waiting for a bus. I was on my way to the bank, and I stopped to offer her my umbrella. She smiled at me and thanked me for it. I asked her where she was going and she said she was going home. She had just finished her shift at the caf' down the road. Her name was Lina and she lived with a roommate in a small apartment in the city center, near the university. We talked for a while and then we parted ways, but not before arranging to meet up again later that week. When we met up again, we went to a bar together and got drunk on cheap wine. We talked about everything: our families, our dreams, our childhoods. We talked until it got late and then we went back to her place so that she could sleep off her hangover before work the next day.",
 },
 {
 id: 4,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max walked up to Lily and said: "Do you want to dance?"
-
-"No, I don't," Lily answered.
-
-Then Max said: "Let's go for a walk."
-
-"All right," Lily agreed. So they went for a walk in the park where it was cool and dark. They were both feeling rather bored until suddenly Max put his arm around Lily's shoulders and gave her a gentle hug. It was a friendly hug and nothing more, but Lily felt as if she had just stopped breathing; then suddenly she grabbed hold of Max and they hugged each other all over the place in the dark park under the trees that smelled like lilac and fresh bread. And when it began to rain they ran home hand in hand...
-
-`
+content: "  She was a woman of the world, and he was a man of the sea. They met in an online chatroom, and spent hours talking about their lives. He was a fisherman, she was an accountant. They talked about their families, their hopes and dreams, their favourite foods. And then one day he asked her to marry him. She said yes. And so they bought a house by the sea, and they had three children: two boys and one girl. They were happy together for years until one day he came home from fishing with no catch at all. He told her that he had lost his way in the mist that morning, but she knew it wasn't true because she had seen him that morning with another woman on the beach. She didn't say anything to him about it though; instead she got up from bed and went to the kitchen where she found a large knife with which she cut off her own hand at the wrist and threw it into the sea. As soon as her hand hit the water it turned into a dolphin who swam away into the mist never to be seen again by either of them ever again.  ",
 },
 {
 id: 5,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It was a hot June day. Max put his book on the grass and took off his glasses, rubbing them on his sleeve. His eyes were tired from reading. He lay back in the grass and closed his eyes.
-
-Lily came walking up to him, a book under her arm. She put down her book next to his, and smiled when she saw that he had no glasses on and was looking straight at her face.
-“Hello, Max," she said softly; "I haven't seen you for ages."
-“Hello," Max said; "I've been busy – I'm almost finished my thesis."
-“Oh, you're still working on that? You've been working so hard..." Lily sounded disappointed. “I thought you'd be happy now it's almost done."
-“Yes," Max sighed; "I am happy." He sat up when he heard the playground bell ring loudly in the distance, over by the high-gabled school building with the tall clock tower that made a little face appear every time it struck two or four or six, but not on quarter hours – not enough time between strikes for its round-faced little face to make another appearance atop its almond-shaped body with its big hands pointing to the quarter hour...but that was later – much later...and now read on:
-Max continued: “…But I'm also sad because I have to finish it soon." He turned swiftly towards Lily then, "Lily," he said fervently; "the things I want most in this world`
+finish_reason: "stop",
+content: "  The man and the woman were both born in the same year, and they both died in the same year. They met in the afterlife, and they fell in love. They spent their days walking through a meadow of lavender, talking about their lives, and making love under a tree of blackthorn. At night, they slept under the stars. One night, as they lay together under the stars, she told him she was pregnant with his child. He was overjoyed at this news, but he was also afraid: what if he died before his child was born? What if he died before his child had grown up? What if he died before his child had found their own love? He told her these things one night as they lay together under the stars. She said nothing for a long time, and then she told him that she would always be with him no matter what happened to either of them. And so it was that when he died on May 5th of that year, she followed him into death on May 6th.  ",
 },
 {
 id: 6,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `A stranger came to a town. He walked through the town and he passed another stranger on a street corner.
-
-"Hello..." said the second stranger. He could tell that the first stranger was troubled and he wanted to help him.
-
-"Hello..." said the first stranger, who wasn't so troubled anymore because someone was kind enough to talk to him. The second stranger asked him what was troubling him, so the first one told his story about his wife who had left him for another man. The second one commiserated with him and told how he sometimes went through similar experiences in his life as well, even though it had been a long time since he had last seen his wife. The first one found out that they were from two different countries, but they ended up spending all day talking and walking together, and went back to their hotels together that night before calling it a day. In another town they might have met in separate hotel rooms by themselves that night; but instead they were in one room talking, sharing their experiences with each other, commiserating together about love and life. They became friends on that day; not only because of similarity of circumstances but also because of kindness: giving your sympathy when it is needed most is something any human being can do for another human being, no matter where you come from or where you are going to...
-
-
-
-`
+content: "  The man in the dark room was not a man at all, but a woman. She had been born with a condition that caused her body to grow hair on her face and chest, and so she wore the mask of a man, and the clothes of a man, and the mask of a woman. She was in love with another woman who was in love with another man. The two women were friends. They met regularly at the bar near the train station. They talked about their men, how they were both so handsome, how they were both so good to them. One day they went for a walk in the park together, as they often did. They talked about their men again, how much they loved them both equally, how they could never choose between them. And then one of them said 'I wish you weren't wearing that mask' and took it off her friend's face to reveal her true identity: she was not a man at all but a woman like herself.  ",
 },
 {
 id: 7,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max and Lily were in love with each other at the same time, and they married two weeks after their first date. They got married in the spring, because spring is the best season for weddings.
-
-They lived happily ever after.
-
-`
+content: "  The girl in the blue dress looked at the boy in the black suit, and knew that she was going to marry him. He had a kind face, with soft eyes and a gentle smile. He had a kind heart, too, and he was always willing to help her out. She felt safe with him, protected. She felt loved by him. When he walked her home from school every day, she took his hand in hers and never let go until they reached her house. When he kissed her goodnight on the doorstep, she would kiss him back for as long as it took for them both to get light-headed from lack of oxygen. His kisses were sweet, like honey and sugar-coated almonds; they were warm like hot chocolate on a cold winter's night; they made her feel safe like a child who has been tucked into bed by her mother after being told that there are no monsters under the bed or in the closet or behind the curtains.  ",
 },
 {
 id: 8,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max and Lily met on the streetcar. When he asked her for a dance at the end of the line, she agreed because she didn't have another dance lined up for the next couple hours, and the band was loud but good. When the band stopped playing for a break, he asked her if she wanted to go outside and get some fresh air. She said yes because it was hot in the dance hall; then they walked over to his brother’s house and sat on the porch swing while they talked about how much more fun it is to do everything with someone you love; then Max told her he had something in his pocket that belonged to her, so he reached into his pocket and pulled out a little black box...
-
-`
+content: "The woman was born with a birthmark that looks like the continent of Australia, and so she had to travel far and wide, from the deserts of the outback to the beaches of Bondi. She had many lovers in her time, but none so special as the one who came from there. He was a water spirit, a kind of mermaid who would come out at night to dance under moonlight. He would dance for hours, his tail undulating in time with his movements. When he saw her for the first time, he thought she was quite beautiful. She was sitting on a rock at the edge of the sea with her legs crossed over one another, a book balanced on her knees. He came up behind her and wrapped his arms around her waist as he whispered in her ear: 'I've been watching you for some time now; I can't help but admire your grace.' The woman blushed and turned around to face him. 'And what about you?' she said coyly. 'Do you have any admirers?' 'I do indeed,' he replied as he took her hand in his own and kissed it gently before swimming off into the ocean once more.",
 },
 {
 id: 9,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It was a gentle spring afternoon. The sun shone through the window, lighting up Lily's blonde hair and her white dress. She sat in the music room, playing a Schubert sonata for viola and piano. Even the grey cat sat on the chair by her side and had fallen asleep while Lily was playing.
-
-Lily played on, one movement after another, not heeding any of the sounds around her, until she played the last note. "There," she sighed. "That's it."
-
-Max came up to her smilingly. "The music sounded exactly as I'd imagined it would," he said.
-
-"And why shouldn't it?" Lily asked him lightly. "We wrote it together."
-
-"Yes," Max agreed; then he added: "You know I love you."
-
-"Why shouldn't you?" Lily countered; then she added: "And I love you too". Then they were both silent for they knew that they had said everything that needed to be said between them...
-
-`
+content: "'I'm sorry,' I say, and he doesn't reply. I look away from him, out of the window, at the passing scenery. It is a dull grey day. We are travelling to the coast. I don't like the coast. The sea is too big and too blue and too cold for me. But he likes it there, he says it reminds him of home. I look back at him; his eyes are closed and his face is peaceful. He looks like a child when he sleeps; innocent and vulnerable. His hands are small in his lap, with long fingers that are always cold to touch. I had thought his hands were beautiful before; they were so delicate and elegant when he played piano for me on that first night we met in a bar in town. Now they look frail to me, as if they could snap in two at any moment if I were to squeeze them tightly enough or if he got angry with me or if he was to be ill again...",
 },
 {
 id: 10,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `John and Mary met when they were sitting in the back of the English class at school, trying to decipher the Shakespearean codpieces in "A Midsummer Night's Dream". They discussed these subversive passages with one another for a while, and then they liked each other so much that they decided to get married.
-
-At first John thought it was a pity that Mary was not a boy, because he thought that if she had been, she would have made an excellent friend for life; but on second thought he decided that this was not so bad after all. What he liked about Mary was her laughter, her softness and her hair which fell softly around her face; and as time went by, John realized that his wife was a girl after all.
-
-"I'm glad you're my husband," Mary said once when they had been married for eight years and two children; "you always understand me." And John agreed with his wife. He often did understand her, although sometimes it seemed to him as if she were completely different from everyone else he had ever known.
-
-One morning when John came into the kitchen where his wife was making breakfast for their children (who were now eight years old themselves), he said: "I think I'm going out of my mind", and his wife laughed softly as she put some eggs on a plate; then she looked up at him and touched him gently on the cheek to reassure him: "No you're not," she said tenderly; "you're not going out of your mind at all - you're growing up."
-`
+finish_reason: "stop",
+content: "We were in love with the idea of each other. She was a novelist, and I was a poet, and it seemed like we would be the perfect couple. We were both fans of the same obscure bands, we both loved art, we both loved to talk about how much we loved to talk. But when it came down to it, our relationship was based on words: how they felt on the page; how they felt in our mouths; how they felt when they left us. And then there was that summer when she went to Europe for three months. I thought I could handle it but I couldn't. Without her around, my words turned into silence. My poetry became empty words on a page and my novels became nothing more than empty pages. I missed her so much that my heart turned into a block of ice and my words froze inside me until there was nothing left but silence.",
 },
 {
 id: 11,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily and Max were at a party. They were both bored. They sat on a sofa together.
-
-"I'm sorry I'm boring you," Max said, "but what shall we do?"
-“Don't be so silly," Lily answered, "You're not boring me at all!”
-
-“Let's go for a walk," said Max. “Let's go to the cinema instead," Lily answered.
-Lily and her best friend went to the cinema. It was the first time they went together without their boyfriends, and they enjoyed it very much. Their boyfriends were very jealous when they found out that they had gone to see a film without them, but they agreed with their girlfriends later that evening that it was fun to think about all these things that had happened between them: laughing at all those stupid stories they told each other; being in love with one another; liking each other enough to want to kiss each other...
-but never having done it yet because they didn't really know how... or whether... or when... or where... and then finding themselves talking about the film in the dark during the dinner afterwards... but wondering if it would be so dark outside after all because even though there had been street lights on during the film there was still enough light outside in those streets where there were trees and flower gardens and people who walked past them like ghosts in those streets which seemed now like dreams for those two people who loved each other although they didn't know it yet because sometimes we love our best friends too much not to`
+finish_reason: "stop",
+content: "The day I met you, I was ready to die. The night before, I had been out with friends. We were drinking and laughing and joking about all the things we wanted to do before we died. When it was my turn, I said nothing. I just sat there. My friends kept asking me what it was that I wanted to do before I died, but all that came out of my mouth was a wordless cry of anguish. And then you walked in, so tall and graceful, like a swan gliding across the water. You were wearing a white dress that shone like the moon against your dark skin and your black hair fell down across your shoulders in thick waves. You sat down next to me and asked me what was wrong. And when I told you everything that had happened, you said nothing for a long time. And then you took my hand in yours and told me that one day we would be together forever when we died.",
 },
 {
 id: 12,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Rowena and I went to Harvard together. Our names are James and Eliza, but everybody calls us Jim and Liz. We met in the first week of orientation. It was a big day for both of us—our first day at Harvard—and after a six-hour tour of the campus (tours were given every hour), we walked in the Yard, opposite the library, without knowing exactly where we were going. There was a sign that said: "GOVERNMENT HOUSE" that led to an outside terrace and we sat down to get our breath back.
-
-"I wonder if this is what it's like to be in love," I said looking up at the yellow brick buildings around us, "I'm sure I'm not but everything looks different suddenly."
-
-"It's late summer," Rowena replied dreamily; "see how quiet it is? It doesn't look like Cambridge at all."
-
-"It's probably because it's late," I said, still looking around me with my eyes shining. "Harvard Square must be much different at night."
-
-"I bet it is," Rowena answered; then she turned to me—"Do you think either one of us will ever see Harvard Square again after today?" she asked me with her eyes as wide as if she were trying to catch a glimpse of her own future through them. She was smiling though, so I knew what she meant wasn't tragic; on the contrary—although students wore their black gowns, there was no funeral atmosphere anywhere in sight... Then Rowena`
+finish_reason: "stop",
+content: "  The first time they met, the girl was wearing a white dress. It was the kind of dress you could wear to a wedding, or to a funeral. She had been wearing it for both. The boy was in black, his lips painted red like her lipstick, and the two of them made quite a pair: one dressed in mourning for the end of life, and the other dressed in mourning for the death of love.  They danced together that night, and they danced together every night after that. He would lead her around the dance floor with his hand on her waist, and she would follow him with her eyes closed. Sometimes they'd stop dancing just to hold each other close; sometimes they'd stop dancing just to kiss, their lips locked together until their faces were redder than their lips were painted. They would dance until dawn broke over the horizon, until they couldn't see each other anymore because of all the light streaming into their eyes.  But one day she didn't come back for him. She didn't come back for anyone that day; she was too busy dying in hospital from a heart attack she had suffered during one of their dances earlier that evening. All he could do now was wait until he died too; he couldn't live without her anymore.  ",
 },
 {
 id: 13,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `One day a man walked up to a woman and asked her for the time. He was good-looking, but he was also obviously poor and ragged.
-
-"I don't have a watch," the woman said after she glanced at her wrist. "But I can tell you what time it is by heart."
-
-The man looked shocked at this statement, but since it was getting dark he said: "All right then, tell me what time it is by heart."
-
-"It's quarter past three," she answered.
-
-The man smiled and walked away without thanking her. He didn't believe that anyone could possibly know what time it was by heart at such a precise moment as half past three in the afternoon. The woman smiled too as she watched him walk away from her into the crowd. She knew that no one would ever ask her how she knew the time so precisely, because no one would believe that someone could have learned to tell clock time by heart, especially when the minutes were not matching up with the hours of a day; yet this was how other people thought about themselves all the time, thinking that they must look like everyone else if they're dressed in clothes with pockets or wallets or handbags that are made out of exactly these items - wallets and handbags - and nothing else...
-
-`
+content: "  'I'm sorry,' the boy said. 'I can't. I just can't.' 'It's okay, it doesn't matter, it was a stupid idea anyway. I don't know why I thought you could help me. You were right, you should never have come here. It was a stupid idea. Stupid, stupid idea! What am I going to do now? I don't know what to do now! What am I going to do now? Oh god, what am I going to do? What am I going to'?' The girl was sobbing and the boy held her close and rocked her gently back and forth until she had calmed down enough to speak again. 'What are you going to do? You're going to be okay, we'll figure something out together, no problem.' The girl looked up at him through tear-filled eyes and smiled weakly before burying her face in his chest once more. She felt safe there in his arms; she felt like nothing bad could ever happen as long as he held her like that and told her everything would be okay.  ",
 },
 {
 id: 14,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max and Lily were at a party. They were both bored. They sat on a sofa together.
-
-"I'm sorry I'm boring you," Max said.
-“Don't be so silly," Lily said, "You’re not boring me at all!”
-
-“Let's go for a walk," said Max.
-“Yes, let's," Lily answered.
-
-So they went out for a walk in the dark street. It was spring and warm enough to walk without an overcoat. They walked very slowly, and they talked about themselves and their friends and what fun it was to be young and in love with somebody. Suddenly Max stopped walking and seized her by the arm. "I think I'm in love with you," he said, in amazement at himself or at her, or both of them together in the night under the trees that smelled like lilac and fresh bread."Why don't we go home?" she asked him after a while; then they stood still under one of the street lights near her house; suddenly she looked up at him as if to ask whether he understood what she wanted... but when he put his arm around her shoulders Max could feel her trembling slightly... “Max, please don't be angry..." she said; "Max, listen..."; then he kissed her because he understood...
-They let themselves into the house very quietly... when they reached their room she turned off the light because it was still early (it was only eleven o'clock) and they wanted to look out of`
+finish_reason: "stop",
+content: "  She was a girl who would sit on the edge of the swimming pool, her legs dangling in the water, her toes twitching in time to some unheard music. I was a boy who would sit on the opposite side of the pool and watch her. We were both too shy to talk to each other, so we sat in silence for hours. Then one day, it began to rain. The sky was grey and heavy with water, and it poured down onto us as we swam around and around the pool. It felt like everything was happening underwater. The raindrops were like fish jumping out of the water; they glinted silver against our skin, they created ripples that ran across our bodies like hands. As I swam towards her, she smiled at me, and I saw that she had teeth made of glass: transparent and sharp as knives. I dived into the water before she could cut me with them.  ",
 },
 {
 id: 15,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `One day, in the middle of a busy street, Lily and Max suddenly stopped walking and looked at each other. They were both thinking about what they wanted to say to one another for a long time. They were talking, but neither of them was hearing the other. An amazing silence had come over them like the silence in the country on Sunday morning. There was no noise then, just the lonely sound of the wind blowing by and scaring away church bells with its moan: "Aaaaaa."
-
-"I love you," said Max to Lily. "I've been wanting to tell you for a long time."
-
-"I love you too," said Lily back. Then she leaned over close to Max's face and whispered: "Let's go somewhere where nobody can see us."
-
-"Yes," answered Max, "let's."
-
-`
+content: "  The boy looked at the girl and the girl looked at the boy. They were both looking for something, but neither knew what. They tried to talk about it, but they never got far before giving up. The boy tried to tell the girl he didn't know what he was looking for, that if she wanted to leave him she should just go and not worry about him. He said this because he thought that if she left him then at least he could stop looking for something that wasn't there. The girl said nothing in response, because she was too busy thinking about how she didn't know what love was supposed to feel like or look like or taste like or sound like or smell like or feel like and whether it would be possible for her to learn how to love someone else when she couldn't even figure out how to love herself. So they carried on living together, day after day, month after month, year after year, without ever saying a word about what they were both looking for.  ",
 },
 {
 id: 16,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `The trees were in full bloom, the leaves high in the sky. And there was Max and Lily, sitting on one of their favorite seats on their favorite bench in the park where they often went to spend a nice time together. "I've never desired any other girl," said Max to Lily.
-
-"I've never wanted anyone but you," said Lily to Max.
-
-"Then why don't we get married?" asked Max and in reply he received a kiss from Lily.
-
-Max and Lily were married soon after that day, and they lived happily ever after.
-
-"He's my husband," said Lily to her friends on another Saturday afternoon; "and I'm so proud of him."
-
-
-
-`
+content: "  The girl had never been to the beach before. As she entered the water, she was struck by the sudden coolness of it, a sensation that was both familiar and alien; her mother had told her that water could be cold sometimes, but it wasn't supposed to feel like ice. The girl thought of her mother as she waded deeper into the ocean, until the water came up to her waist. She closed her eyes and took a deep breath, but when she opened them again, all she could see was blackness. She felt for the bottom with her feet, but there was nothing there. She began to panic; she couldn't breathe in this cold blackness. Her mother had told her about drowning once; how it would feel like being wrapped in a heavy blanket that you couldn't fight your way out of. But where was her mother now? The girl reached out for something to grab onto, but there was nothing there. And then suddenly there were arms around her waist, pulling her up until she broke through the surface of the water and took in a deep breath of air. It wasn't until later that night that she realized what it felt like to hold someone who loved you so much they would never let you go.  ",
 },
 {
 id: 17,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily turned to Max: "I'm in love with you."
-
-"What do you mean?" Max asked, surprised.
-
-"I mean that at this moment I feel as if I have never felt before. And there is a reason for it... I am in love with you!" Lily said, almost defiantly.
-Elizabeth's answer was interrupted by Max's kiss on her lips. "Oh, Lily," he said, "you know I am in love with you..."
-"But do I know it?" Lily mimicked him with a smile.
-Laughing and kissing each other they went to Elizabeth's house to tell all their friends the good news...
-
-`
+content: "She was a girl born under the Northern Lights, and so, when he saw her for the first time, her skin glowed with the light of a thousand stars. And as she grew from girl to woman, her skin only shone brighter. It was some years before he worked up the courage to ask if he could touch that light, and she allowed him a brief caress before abruptly turning to walk back home. He followed her there in the dark, where they sat by the fire and talked for hours on end about their dreams. She told of how she wanted to be an artist, but that she didn't have any talent for it. He told how he wanted to be a musician, but that his band had broken up. Before they knew it, they were talking about their past relationships and their current situations: how one had been a housewife and mother until she was twenty-nine; how one had been in love with someone who didn't love him back; how one had been single for more than half of his life; how one had believed in marriage before realizing it wasn't what he wanted at all. They talked about everything but themselves until there was little left to say.",
 },
 {
 id: 18,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max and Lily were married and they had a baby girl. They could not have been happier, but one day the baby became ill and she died. Max went to work in the mornings as he always did, but he returned every night, looking more tired than ever. Lily began to worry that some day Max might die or disappear without his ever telling her anything about it. She knew she was being silly, but she couldn't stop worrying about it. One evening as she was putting Max's dinner on the table, he said something that made her realize how silly it was to be worrying so much about his dying without telling her anything about it:
-
-"We never did go for that walk," he said. "It's too late now."
-
-`
+content: "When the man came back from the war, he had lost more than his leg. His eyes were always downcast, never meeting their gaze; his mind was always elsewhere. The woman tried to get him to talk, but he would only say she was beautiful and that he loved her. She wanted to ask where he had been and what had happened, but she thought it best to leave it alone. And so they lived in silence for many years, until one day when the man said something new. The woman was washing dishes when she heard a strange sound coming from the other room. It sounded like crying. She turned off the faucet and crept into the living room, where she saw her husband sitting on the couch with a kangaroo next to him. The kangaroo was hugging him as if it were a child and crying into his chest. The woman didn't know what to do, so she sat at the edge of the couch and stroked its little head while whispering comforting words in its ear until it fell asleep in her husband's lap. That night they made love for the first time since before all of this happened; afterwards, they lay there together with their arms wrapped around each other and slept through until morning.",
 },
 {
 id: 19,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Moishe was an interesting fellow. He wasn't particularly handsome, he wasn't strong or athletic, but he was exciting. He knew about things that nobody else knew. He could sing in perfect Yiddish and in a rich baritone voice; he could recite poetry in Russian and French, and when he played the violin people came from miles around to listen to his music. And he was a good friend, too: whenever someone came to his house who had nowhere else to go for the night, Moishe always had a place for him on the couch near the warm stove; and no one ever left his home hungry because Moishe always first of all sat down with his guests and ate what there was himself before feeding anyone else.
-Moisey's friends all liked him: Shmuel who could do everything with his hands like carving and painting and making things; Yankel who could draw; Boris who could do magic tricks. They met once a month in Moisey's warm little kitchen where they cooked special dishes just for themselves while their wives stayed home with their children. All seven of them would sit around Moishe's table drinking wine from tall glasses until they were all very merry; then Shmuel would sing Yiddish songs while Yankel played his violin, until Boris dealt out a round of cards which everyone tried to win because it meant so much if you were able to boast that you'd beaten Boris at playing cards or checkers - which no one ever did!
-At night when all the friends went home to their wives (except for`
+finish_reason: "stop",
+content: "  At first, he thought she was a flower, a lily floating in the pond. When he saw her face, he thought she was an angel. She was both, and more: a goddess of the water. A nymph. The children were delighted when they found her, their secret friend. They swam with her after school and told her about their lives in whispers, but never about the bad things, like the bullying or when their father lost his job. The nymph only listened and smiled at them with her blue lips that tasted of saltwater and honey. They would never have to worry about anything again with the nymph watching over them. One day, as they walked home from school together, two of the bullies pushed them into an alleyway where no one could see them. Then they started calling them names and pinching their cheeks until they were red and raw. The nymph tried to get them to stop but it only made the bullies angrier so she turned around and fled back towards the pond as fast as she could go. When she reached it she sank into the water without looking back at her friends who were still being bullied by those boys that called themselves men.  ",
 },
 {
 id: 20,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It was a rainy afternoon. Lily and Max walked slowly down Fifth Avenue; the rain had stopped for the moment but they didn't have an umbrella with them and they were both wet. They had been to an art show in one of the museums and were slowly walking back to their apartment for a cup of tea before going out again for dinner.
-
-"I am very fond of you, Lily," said Max, stopping in front of her and taking her hand.
-
-"I know," Lily replied, smiling at him. "You've told me so every day for the last six years."
-
-They sat quietly on a bench by the edge of Central Park where there was no one else around. Max took off his glasses and wiped them with his handkerchief. Then he put them back on and smiled at Lily, who smiled back at him. He leaned toward her and kissed her gently on the forehead and they sat quietly together in the dampness of the spring afternoon; neither one spoke because words would have broken whatever spell it was that held them there together...
-
-`
+content: "  It is the day of the wedding, and the bride is nervous. 'What if I forget my vows? What if he doesn't show up? What if it rains?' The mother of the bride looks at her daughter and smiles. 'Don't worry, darling. I know you will remember your vows, and it won't rain on your special day. I also know that you will never be as happy as you are today. That is what I want for you: happiness, but only today. None of tomorrow, none of next week or next year: just today.' The bride nods and lets her mother kiss her on both cheeks before she leaves to meet her groom at the altar. As soon as she steps out into the cold night air she sees him waiting for her under a street lamp; his eyes are bright with love and excitement, and he takes both of her hands in his own as they walk down the aisle together to begin their lives together. And that is what happens: they live happily ever after right now, on this one day; there will be no more days like this one for them but it doesn't matter because this one day is enough to last them a lifetime and beyond...  ",
 },
 {
 id: 21,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `The first time Lily saw Max he was standing in the doorway of a club getting his breath back after walking twelve blocks to get there. He was a tall, dark young man and his face was flushed and hot. She looked at him and smiled very slightly; she had noticed him as she passed him in the doorway, but she didn't give him a thought until she saw him gasping for breath and then walking off without saying anything to anyone. A minute later he came back for his hat and coat, which he had forgotten, then he walked out again.
-
-Every night when the show was over, Lily went out for a walk because she was restless after being on her feet most of the evening. She walked briskly as far as Fifty-second Street where she turned around and came back again; this time it took her twenty minutes to walk from Madison Avenue down to Fifty-second Street. One night when she passed Max's house on Fifth Avenue near Eighty-fourth Street, he stepped out into the street with his overcoat on and followed her as far as Fifty-second Street where he ran up behind her and tapped her on the shoulder.
-
-"Hello," he said; "will you have dinner with me?"
-
-"Is that supposed to be a joke?" Lily demanded in surprise; "I work all day at Bonwit Teller's Department Store at Fifth Avenue near Forty-fifth Street."
-
-"I know," Max said; "but you look like you're full of ginger snap cookies." He took her arm, bent over it, kissed`
+finish_reason: "stop",
+content: "  In the old days, he had been a great warrior. He could run for hours without tiring, and he could hurl spears with such accuracy that even the most powerful of enemies would fall before him. But then he fell in love with the wrong woman. She had hair like a waterfall and skin as smooth as a watermelon. He was so taken by her beauty that he forgot about his duties, and soon his people were starving. They turned on him, eventually driving him out of town. Outcast, he wandered aimlessly until he came upon a peach tree in full bloom. He sat under it for days, watching the petals fall and feeling his heart grow heavier by the second as his eyes glazed over with tears. The peach tree was so moved by the warrior's devotion that it called to its sister trees to help it make one last gift for the man: a bowl made entirely out of glass that would never stain or shatter because it was made from his tears.  ",
 },
 {
 id: 22,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `
-Max and his friend, Harry, were talking in a coffee shop one gray afternoon. Harry was telling Max about the wonderful new girl he had fallen in love with.
-
-"You have to meet her yourself," Harry insisted.
-“I would like to," Max agreed, "but I already have a steady girl and I don't want to cause any trouble."
-
-"I don't think there's going to be any trouble," Harry said as he looked at his watch; "she should be here any minute now."
-“Then why don't you wait for her at the door?" Max suggested. “I think I'll have another coffee.”
-“All right," Harry answered, and he went out on the sidewalk to meet his girl. When she came walking toward him, Harry grabbed her arm and hurried her rather roughly into the coffee shop where she could best see Max. “That's my friend," he said, introducing them quickly; then he left at once without saying another word because he didn't want to miss a moment of his date with this exciting new girl who knew how to keep him waiting for over an hour before arriving with a mild apology.
-
-Harry's friend was Alice, and when she saw Max sitting alone at their table in the coffee shop looking so very sad that it broke her heart (and this is why she had been so late), Alice sat down beside him without saying a word and without waiting for Harry's approval or permission...
-
-`
+content: "  I used to think that if you could just get all the numbers right, you'd be able to predict the future, and time itself wouldn't mean anything. As I lay in bed, staring at the ceiling, listening to my lover's breath rise and fall like a tide, I thought about how we had met: I was walking along the beach one sunny day when I saw a pretty girl with tangled brown hair. She was wearing a faded dress and her shoes were bare. She told me she had come from another time, another world where she had been floating in space on a chunk of ice. We fell in love on the spot and were married two weeks later. There was a problem with her visa but we got through it eventually. We moved into this apartment together; it was small but adequate for two people who didn't spend much time there. It's more of a home now than it ever has been before because we're both here, together.  ",
 },
 {
 id: 23,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily had just moved to New York and she needed a job. She was still in school when she saw a sign on a drugstore window: "help wanted. Apply within." She hurried across the street and found herself face to face with the store owner, who gave her an application form to fill out.
-
-"Name?" he asked as soon as she sat down at the counter where he could keep an eye on her.
-
-"Yours first," Lily answered, taking pen from behind her ear and leaning forward over the counter.
-“Max," he answered and went back to his papers. Lily wrote Max on the top of her application form, then turned it around in order not to lose her place, when she discovered that Max was looking at her very strangely, so she looked up at him too, but his eyes seemed suddenly very far away -- like someone dreaming -- so Lily went back to staring at him with curiosity until finally: "Is there something wrong with you?" Max asked...
-
-`
+content: "  The woman is a stranger to herself, she's sure of it. She has no idea who she is, where she's from, what her name is. She knows that there are two men in her life, and that they both love her. One of them is called David. He works at a bank and smiles all the time when he sees her. The other one is called Tom. He has a beard and doesn't smile as much as David does when he sees her, but she loves him more because of it. She thinks that Tom might be the one who loves her more than David does.  One day, the woman comes home to find that David and Tom are fighting over her in the kitchen. She's scared by this, because they've never fought over anything before, and they have never fought over her before either. They are shouting at each other in a language that she doesn't understand, but they both seem very angry about something. Then there is a horrible sound like breaking glass, and then everything goes very silent ' so silent that the woman can hear herself breathing for the first time in years ' and then Tom screams out loud like someone has sliced him open with a knife ' or broken a bottle on his face ' which makes the woman scream too ' which makes David scream too.  ",
 },
 {
 id: 24,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max was bored. He was sitting in a cafe with his brother and watching the people. There were so many different kinds of people in the world and they all looked so different, but he had never seen anyone he wanted to know or have for a friend. Max felt as if he had to be alone the rest of his life, because he didn’t want any of those people for a friend. Then Lily came in. She was dressed very plainly and Max looked at her for a long time; he couldn’t take his eyes off her face, because she was so beautiful that it hurt him to look at her. After a while, when Lily sat down at an adjoining table with another girl, Max saw that she was staring at him and his heart began to beat fast. He stared back at her without thinking about anything until she finally got up and came over to his table.
-
-"Hello," said Max, looking at her even harder than before because this time she wasn't even pretending to look away from him either. "I don't know why I'm looking at you like this," he told her finally, "but you're the first person I've ever seen who doesn't make me feel lonesome."
-
-"You feel lonesome?" Lily asked him in surprise; "why should anybody feel lonesome?"
-
-Then she sat down beside him and talked with him for more than an hour while they waited for their friends who never did come that night; so they went out together instead...
-
-`
+content: "  The boy feels like a prisoner in his own body. His skin is too tight, his bones are too tall, his joints are too stiff. The man who holds him captive is a stranger, and yet he is the only one who knows him. He knows how to make him smile, how to make him laugh. He knows how to make him feel good about himself. He loves him as only a father can love a son, and yet the boy cannot remember what it was like to have this man's blood running through his veins. He remembers nothing but the feel of this man's hand on his face, on his hair, on his shoulder. The boy does not know whether he loves or hates this man who has raised him from infancy with such tenderness and ferocity. Sometimes he feels like he should hate him, but then the man will smile or laugh and the boy forgets why he was angry in the first place.  ",
 },
 {
 id: 25,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max and Lily met at the dance hall. Max was dancing with his girl friend, but Lily was standing alone near the wall. She came to the hall in spite of not having a date because she had heard that there was good dancing there and she wanted to dance every night. She was a pretty girl with dark hair and deep blue eyes, and when Max saw her he went over to her right away.
-
-"I don't have a partner," he said, "Do you want to dance?"
-
-Lily didn't say anything, but she smiled at him as if she had been waiting for that invitation all evening. They danced until it was time for her to go home, then they went outside together under the big street lamp which shone down on them from between two maple trees in spring bloom. The street light made them feel romantic, so they talked about love until they found themselves telling each other little things about themselves as if they had known each other for years. They were both lonely and unhappy, so their loneliness grew less as they walked together through the spring night which smelled like lilacs and fresh bread...
-
-`
+content: "  The girl was born with a silver spoon in her mouth. Her parents were wealthy, and they had a country mansion with a large garden, the kind of garden where you can do anything you like, including building your own tree house. One day, when she was playing on the ground floor, she found her way to the attic and discovered a dusty old trunk that her parents had forgotten about. It was full of old toys and books. She took out a small wooden doll's house and placed it on top of her head, pretending it was a hat. She took out a frayed book with no cover and started reading aloud from it: "Once upon a time there lived...' She couldn't read very well, but she loved hearing the sound of words coming from her mouth. But then she heard footsteps approaching, so she quickly put everything back in the trunk as best as she could and closed it. The footsteps were getting closer. Then the door opened and there stood her mother. 'What are you doing?' Her mother asked sternly 'Nothing' said the girl 'I just saw this trunk here and I wanted to see what's inside" 'Did you find anything interesting?' Her mother asked 'No" said the girl "There is nothing interesting in here" Her mother nodded slowly "Then maybe you should go outside for some fresh air" And so they went outside together to play in the garden.  ",
 },
 {
 id: 26,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max and Lily were sitting on the steps of the school. It was a warm June day and they were talking about everything – about how much they liked each other, and about how funny it was that they had not realized it before, but now that they did realize it, all they could think of was that they wanted to be together. They hugged each other and kissed each other.
-
-They were in love with each other.`
+content: "The couple sat in the corner of a bar, where the music was loud and the drinks were cheap. He told her everything. He told her about how he had been living on the street for years, how people would avert their eyes as he held out his cup to them. He told her about how he had only boarded up the windows of his apartment after it was broken into, how no one even noticed him when they walked by. He told her about how he had stolen this coat from a shop, and that hat from a man who'd been passed out in an alleyway. She listened to all of this quietly, nursing her drink when she wasn't looking at him. When they walked outside, she took off his coat and handed it back to him. She took off his hat and handed it back to him as well. As she walked away from him down the street, she didn't look back once to see if he was following her or not.",
 },
 {
 id: 27,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max was sitting in a bar nursing a beer. He was not in the mood to talk to anyone. When the bartender came up to him, he raised his eyebrows and pointed at his drink. Max would be there all night if they left him alone. It was too early for the place to be crowded. A few people came in, looked around and left again, but Max didn't notice any of them or he didn't care if he did. At that moment, someone tapped him on the shoulder and asked: "Mind if I join you?"
-
-Max shook his head. "Have a seat," he said.
-
-The man took off his coat and sat down on a stool next to Max's barstool; then reached for the paper lying on the bar, looked at it for a while, folded it up again and threw it down onto the counter with disgust saying: "What kind of town is this anyway?"
-
-"What do you mean?" Max asked him; "there's nothing wrong with this town."
-
-"Oh yeah?" said the man; "what would you say this town needs? Tell me that." He had started talking with passion in his voice; now he had both elbows on the counter and looked around like someone who was about to deliver a speech.
-
-Max shrugged his shoulders. "I'm not from here," he said. "But what kind of town do you want? A good place for business maybe? What do you do anyway?" He had become interested in this man who had come into the bar so suddenly that`
+finish_reason: "stop",
+content: "The old couple lay under the covers, their faces pressed together like a book. They were so close they could feel each other's breath on their lips. The woman smiled, and her husband smiled back. It almost looked like they were kissing, but they weren't; instead, they were breathing each other in, the oxygen flowing into their lungs and mingling with the carbon dioxide from their exhalations. She closed her eyes. She could hear him humming softly in her ear, a song she had been humming to him every night since they had first met, forty years ago. He was singing it now because he couldn't sleep without hearing it from her lips one last time before he went out for the night. 'I'll be home again tomorrow night'' His voice grew softer as she drifted off to sleep. She knew that he would be there again when she woke up; she knew that he would still be breathing in her breath and looking at her with his big blue eyes as if to say 'I love you so much'; she knew that he would still be there when she died ten years later, of heart failure while sleeping next to him; but for now ' just this little moment ' she knew that the man was all hers and that no one in all of the world would ever have him but her.",
 },
 {
 id: 28,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily was at a party and Max was there, too. They were dancing together when suddenly something came between them. Lily saw that it was three boys with big grins on their faces who did not take their eyes away from her and Max for a moment.
-
-"Let's go for a walk," Max suggested to Lily; but she refused because she knew the boys would follow them.
-“I'm sorry," Lily said, "but I don't feel like going for a walk."
-
-“I'll call you tomorrow," said Max; then he went away.
-
-Lily felt embarrassed and humiliated, but she hadn't expected anything else. She had been asking for it by going out with a boy like Max. Everybody knew that he wasn’t good enough for her, but Lily thought she knew better than other people – not better than her parents, but certainly better than all those girls who giggled behind her back when they saw her with him on the street or in the movies or at the tennis club where they played tennis every Sunday with all those boys who were so good-looking and had such nice cars. And now here she was in this stupid party, half drunk and surrounded by silly boys who never left her alone and who thought their being there made a difference to her – if they didn't think that themselves! – and one of them even dared to touch her! And nobody helped her! Everybody looked on as if it were funny! Even those girls who giggled behind her back would have come to her rescue if they'd happened`
+finish_reason: "stop",
+content: "She was a widow, and he was dead. Once, they had been a married couple, but now that was a distant memory. Now, she lived in the cemetery where he had been buried. It made perfect sense to her that she would live here, among the dead. When they were married, he had always been so affectionate. At night he would hold her in his arms and whisper of his love for her. She would lie there watching him sleep until it became too painful to watch him not breathe anymore. But she held onto him as long as she could. Then, one night when they were asleep together, a fire broke out in their house. He never woke up; it was as if he knew what was happening before it happened. She was able to escape with her life. Now when she went to visit his grave, she never stayed for very long because it hurt too much to see his name carved in the stone beside the dates of his birth and death. The rest of the inscription said 'Beloved Husband' but all that really mattered to her were those dates: 1955-1977",
 },
 {
 id: 29,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `I had to collect the money. It was late and I did not want to go to the office, but I wanted that money, so I went. The corridors were dark and empty, but my night-watchman knew me and let me in.
-
-I walked along the corridor quickly past the rows of doors with their frosted-glass panels. Each door was labeled with a name plate. The letters were not very clear in the dim light of the corridor; I had to squint at them. When I reached my office, I had to knock at first; but Mrs. Russell opened the door right away because she had been waiting for me behind it for quite some time already. She looked upset and told me that she'd put off going home for as long as she could just because she was afraid that something would happen to her before she saw me again. She told me again how much she loved me and asked me if there wasn't anything we could do about it -- but there wasn't, so we both tried not to think about it anymore after that night...
-
-`
+content: "  ____ A love poem by a cicada. ____ The poet is in love with a woman who isn't there. She is in his dreams, always sitting right next to him, but he knows she's not real. When he wakes up, the bed is empty and cold. He spends his entire day trying to find her, but he can never seem to locate her scent. He thinks maybe he could catch her if he reads his poems too loudly, so loudly they echo down the halls of the hospital where she works, but as soon as he gets home from work she's already asleep, lost among nightmares of a life she never had. And when morning comes she is gone again, and all that remains are crumpled sheets and an empty house. The poet thinks about going from room to room until he finds her resting in some corner, or perhaps even under the table or behind the couch (he has checked there already), but every time it's out of reach before he even notices something's changed. And if you can hear him weeping in the background you might think it's just some seagull flying past your window on its way to your neighbor's trashcan at night. But really it's probably just someone crying into their pillow because they feel like they are dying inside and have no idea why' ",
 },
 {
 id: 30,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily and Max were in a train. They had just had dinner and were now drinking wine and talking about what a good time they'd just had on their vacation in Greece where they'd rented a yacht and sailed around the islands.
-
-Suddenly, Max broke off his story to look at Lily and hold her hand. "I love you," he said.
-"I love you, too," Lily answered, smiling happily, "And I'm so glad we're going away together on vacation again."
-"What do you mean?" Max asked in surprise: "We didn't go anywhere together during our vacation."
-“Yes we did," Lily said. "That day when we rowed out to the middle of the Aegean Sea and I fell overboard and nearly sank before you fished me out--that was really an interesting day!"
-`
+content: "  I had been chasing my love around the world for three years. She was at a literary festival in London, I was in Prague, and we were sending each other emails daily, quipping about the city, telling each other how much we missed each other. The next day she would be in Paris, and I would be in Beijing. We never planned to meet up. To see her face-to-face was too painful, too much of an acknowledgement that we were not together. And then one night, she emailed me saying that she was coming to Beijing and wanted to see me. With shaking hands, I booked a room at the hotel where she was staying. When she arrived the next day, I didn't recognise her because her face had changed so much since the last time we saw each other: it had aged by twenty years. But it didn't matter; all that mattered is that she was here with me now and nothing else mattered anymore.  ",
 },
 {
 id: 31,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It was the best day of her life. She had just finished all her classes, and she was going to meet him. They were going to meet at the student center for a coffee and a chat before they went their separate ways for the weekend.
-
-She was so excited that she could hardly concentrate during class, but finally it was over and she ran from the classroom to the student center with a special smile on her face.
-
-When she got there, he wasn't there yet. She sat down at one of the tables and opened her book to study for an exam that was coming up next week. Then he walked in with some friends and sat down at a table far from hers; but he looked at her and smiled.
-
-She felt like jumping out of her chair, running over to him, taking his hand without saying anything, and then dragging him out of there; anywhere else would be better than here...with his friends! It would be like heaven if they could leave together now while everyone else was still studying or talking...she could just see them walking away from here into some other part of town...away from all these people who were staring at them even though they did not know them...they were staring as if they knew what it was like to be in love...
-
-"It is like heaven," she said softly as if answering someone who had asked her how she felt about being in love...and looking up, she saw that he had gotten up from his table with his friends and come over to where she sat by herself studying; he sat down`
+finish_reason: "stop",
+content: "  Every day for the past three years, the man has brought his lover to this very spot. He has brought her here, to the top of the hill, where they can look over the city and pay homage to the mountain that looms behind them. He tells her how he met God in a dream, how he created her in His image, how He told him that love was worth clinging to. Down below their home is a city of people who have been touched by God's grace: an old man who can balance a cup on his nose; a teenage girl who can bend metal with her bare hands; a baby boy whose tears are so hot they burn holes in his mother's breast. The man has told his lover about each and every one of them, about each and every miracle. She listens without comment: it is not love that compels him but duty.  ",
 },
 {
 id: 32,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It was seven-thirty on a Saturday morning and Max, who had been awake for two hours already, was sitting in his car waiting for Lily to come out of her apartment building.
-
-He had decided to take her out for breakfast.
-
-Lily loved to sleep late on Saturdays and she never got up before ten-thirty. But Max knew that she would want to get something to eat, so he had brought his car and waited outside her building until she finally came out dressed in jeans and a green cotton shirt.
-
-"I'm starving," Lily said as Max helped her into the front seat of his car. "I haven't eaten anything since yesterday." She put her arms around him as he started the engine. "What you're doing is very sweet," she told him, "but I'm not hungry."
-
-Max took her arms away from around his neck and held them by her side: "Don't do that," he said simply. "You know I love you." Then he drove off quickly so that she couldn't answer him, because he knew that what he had just said was true, and now it had been said, there was no turning back. He drove through the streets in silence until they arrived at a little coffee shop where there were only a few people eating breakfast at tables outside on the sidewalk...`
+content: "The young couple began their flirting with a heated debate about the existence of the soul. The girl had an almost religious belief in it and was on a personal quest to prove its existence. He argued that the soul was an invention of religions to keep people under control. It annoyed her when he refused to believe in any higher power other than himself, though she enjoyed dining with him even when they argued, and so sought ways to change his mind. When she talked about the soul, he'd reach into his pocket, pull out a small piece of quartz and tell her that it had been given to him by his grandmother who'd told him that if he ever found someone who could hear the music within it then he would know that he had met his soul mate. Grinning at her with those bewitching green eyes, she would hold each end of the tiny bead between her fingers and ask if she could hear anything and he would open his mouth and say 'yes' as if making love.",
 },
 {
 id: 33,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `"I want to go home," Lily said.
-
-"Do you want me to walk you home?" Max offered.
-
-"No," Lily replied. "I'd rather walk home alone."
-
-Max nodded and watched her go down the avenue. He did not try to follow her because he knew that sometimes a person needs to be alone when they are sad and that it is best not to interrupt them when they want to be alone.
-
-He stood there for a while, waiting for her, even though he knew that she would not come back. When she did not return, Max went away too, walking down the avenue until it turned into a street and then into smaller streets until finally he came upon an alley where no one walked after dark, especially people like him who were strangers in town. He thought about turning back but decided against it and continued on his way, following the alley until he came upon an old house with an old woman sitting in front of it on a chair under a dim street lamp. The house looked dark except for one window which was lit by the flickering light of a candle. The old woman sat there staring at him as he walked up and stood before her, motionless with fear. She was old and very thin; her face was covered with wrinkles and she wore glasses with thick lenses which made her eyes look very big behind them; yet there was something about them which made Max feel sad when he looked at them... They reminded him of Lily's eyes as he had seen them last night... And suddenly he remembered that night: it had`
+finish_reason: "stop",
+content: "Her name was Linh, but she was often The Dragon. She would lie on her back, sword drawn on the floor beside her, and as I passed by, my calf muscles would tense as though they could feel the wind from her sword-stroke. She'd often shout at me and say that I needed to be more proactive about seeking out my opponent. 'What do you think I'm doing?' I'd reply, before passing her. 'I am your opponent!' she'd tell me and laugh, before swinging the sword again. At first, when she spoke to me as if we were enemies in battle, it came across as a little coldly mechanical: maybe even a little intimidatingly so. But soon I got used to it and started to look forward to her attention at every opportunity. To know that someone else was taking an interest in my progress gave me wings and a sense of purpose that had been previously lacking in my life ' a sense of purpose inspired by the greatest dragon slayer of all time'",
 },
 {
 id: 34,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `The telephone rang at a quarter to seven in the evening. Lily picked up the receiver and heard a voice on the other end of the line say: "Hi, Lily. I was wondering if you were free tonight."
-
-"Hi, Max," Lily replied as she sat down in a chair. "I'm free."
-
-"How about going out for dinner?" Max asked. "There's this new Chinese restaurant near my place that I'd like to try out tonight."
-
-"All right," Lily said. "That sounds nice." She had no idea why he wanted to take her to dinner, but they had gone out before and she liked Max so she was glad that he had called her up and asked her out again.
-
-"I'll pick you up around seven-thirty," he said, and then he hung up before she could say anything else. She decided that it did not matter; it was just dinner anyway... what could go wrong?
-
-At precisely seven-thirty, Max knocked at her door. She opened it and saw him standing there with a bouquet of red roses in his hand, smiling at her as if he were waiting for her to say something; but she did not know what to say because she had never received flowers from any man before... so she just smiled back at him and took the flowers from his hands and put them down on the table in the hallway without saying anything; then they left for dinner together...
-Max's apartment was very nice: clean, neat, everything in its place. He served`
+finish_reason: "stop",
+content: "When the man was born, his father wrote him a poem: ______________________________________________________ You are the son of a rebel, but the rebel was weak. And you are my son. But what can I do? It's as if heaven had made a mistake, and you were sent here by mistake. When your mother died, I felt like hell had made its own mistake. And now I'm losing you to one of its creatures. Maybe it's time for me to die too. ______________________________________________________ For years after that, the man didn't know why his father had hated him so much, but now he knew that it was just love. And he couldn't hate his father any more than he could love his wife. He knew this poem better than how to write his name in full. He knew not to use capital letters or punctuation marks because they didn't exist in heaven or hell either way; they were both places where there was nothing at all out of place. He suspected that in those places even this poem might feel misplaced but he didn't mind because he wrote it anyway; at least no one else could write anything worse about them than this poem had been able to say about him when he was still young and trying too hard to be perfect and no one around him could complain because everyone else was just as fucked up as they were anyway.",
 },
 {
 id: 35,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily was bored. It was Friday night and she had to be at the dance hall in half an hour, but she didn't want to go. She was tired of dancing every night and she didn't like the boys who were always asking her out. Max was there, though, and he always asked her to dance, so Lily decided to stay a little while longer. She liked Max. He was the only one who ever had a conversation with her, and she thought he might ask her out if she stayed long enough.
-
-"Let's go for a walk," Max suggested as he came up to Lily. "It's hot in here."
-
-"All right," Lily said gladly. "But I have to be back by ten."
-
-They walked up and down the avenue, talking comfortably about everything and anything until finally, they found themselves looking at each other with amused grins on their faces.
-
-"We've been through this before," Max said, indicating all that they had talked about on their walk up the avenue; then he added: "But isn't it funny how you can enjoy talking about yourself?"
-
-"Yes," Lily admitted; "it is funny." Then she asked him: "What makes you think you know so much about me?"
-
-Max laughed at her question: "What makes you think I know so much about myself?" he countered, but his question was not answered because suddenly they realized that they were in love and that everything else had been just talking before that moment when they stood looking at each other in the`
+finish_reason: "stop",
+content: "  It was the hand that did it. The hand with its bony, work-hardened fingers that gripped my forearm and propelled me in a rush towards the hills where a chain of young boys were gathering, their scrawny legs planted firmly apart. I didn't know why or what for. I have a tingling feeling in my arm from where the hand gripped it, and my palm still shivers when I think of it. The boys know better than to let your ragged silences or useless questions get in their way. They've got a job to do: faces to smash and skulls to crack and they're not going to let anyone get in their way. The last time we did this I was too slow bringing my hands up to protect myself, and before I knew what was happening my nose was broken and blood was streaming down my chin onto the ground beneath us. The boys were busy filling the ever growing cart full of corpses while screaming madly with delight; they paid no heed to me.  ",
 },
 {
 id: 36,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `They were standing in the middle of the street. It was a hot day, but Lily did not feel the heat. She and Max were too busy talking about what they wanted to do with their lives and where they wanted to live when they got old.
-
-Lily wanted to travel around the world, so she said she would rather live in a small house in a big city than a big house in a small city.
-
-Max said he would rather live in a small house in the country near a stream than an enormous house on top of a hill overlooking the city he worked in. He said that he had always admired people who lived near rivers because they seemed to be more relaxed and content with their lives than people who lived downtown in large cities with tall buildings and cars speeding by every minute of the day.
-
-Lily thought it was funny that Max had almost described her future, but she did not mention it because she didn't want him to get jealous because he was still talking about his own future when she had already described hers. She did not want him to feel that perhaps one day when they were old, she might leave him or something like that; so, instead, when he stopped talking and looked at her as if waiting for her answer, Lily just smiled at him and said: "I think I'll like living near a river." And then Max asked her if she would like some ice cream; so they walked over to an ice cream parlour on the corner where they both decided on vanilla ice cream and hot fudge sauce for dipping it into...`
+finish_reason: "stop",
+content: "  Thinking of her is like a bad drug for the guy. She's always on his mind, night or day, he's just not sure which. He feels like he's burning up when he thinks of her, like his heart is going to freakin' explode. To calm himself down when he gets these thoughts going in his head, he does something physical. He runs five miles, or starts a fight with the next schmuck to look at him funny. When he thinks of her in school she makes her way through the day until lunch and then she sees him across the cafeteria. She catches his stare and locks eyes with him for a little while as she feels a familiar thrill rush through her body starting from her temples and finishing at the very bottom of her toes and then shooting back up to the top of her head so that she feels light headed, almost high .Then they go about their days until they go home but once there all bets are off and it's time to get ready for bed because they have school again tomorrow  ",
 },
 {
 id: 37,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily was sitting alone in a dark corner of the dance hall. She had been there all evening, watching the people dance and having fun. She didn't know any of them.
-
-"The boys are so dull," she said to herself. "They don't have anything interesting to say."
-
-She had come here with a girl friend, but her friend had found someone to go home with and had left an hour ago. Lily was tired of sitting alone in the corner watching everyone else have such a good time, so she decided to go home herself.
-
-"I'll wait until Max comes," she thought as she stood up and began to walk across the dance floor; "then I'll ask him for a ride."
-
-It was then that she saw Max standing at the entrance looking around for her. He saw her at once and walked towards her. She met him half way in the middle of the floor. He looked at her closely; his eyes were almost sad as he asked: "Where's your date?" Lily did not answer immediately, but looked away from him out over the dancers, who were still dancing just as hard as when they had first come in two hours before, and said: "I don't know where he is." Then she added: "And I don't care either." Max stared at her for another moment; then he took her by the hand and led her out of the dance hall. They walked together down the avenue without saying anything until they reached his car; then he opened the door for her and said: "Get`
+finish_reason: "stop",
+content: "  It was an unromantic way to meet. He had been beside himself with worry ever since he saw her sitting so forlornly on the bench. Her companion was taking some time and he didn't know what to do, so he sat down next to her. They didn't speak for a long time, both too shy to say anything. But they sighed in unison and their hands clasped at the same moment, like they were unwilling to let go of each other. Looking at his profile, she knew that he looked a little sadder than most people she knew. His dark eyes were melancholy and set in a face that seemed carved by time into lines of inconsolable grief. But suddenly her heart surged with a strength she had never known before and she wanted to be his joy again, everyone's joy, with their laughter echoing off the walls of nearby buildings, bouncing off the gutters and into the sky. No one should be sad when they could laugh like this! 'I am sorry for your loss', she said finally as she squeezed his cold hand gently with hers.  ",
 },
 {
 id: 38,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `I was sitting in the bar alone. I was waiting for my date to show up. I looked at my watch. He was already ten minutes late and I wondered whether he would come at all.
-
-"Hi." It was Mark who came up to me and sat beside me at the bar.
-
-"You're late," I said to him, but he just grinned back at me and said: "I know." Then he asked me: "What'll you have?" and before I could say anything, he added: "I'll buy you a drink."
-
-I said, "Thank you," and we sat there drinking quietly until Mark asked me suddenly: "What are you doing later?" And without thinking, I answered: "Nothing," although I knew that I had to go home and study for a very important exam that was coming up in three days, but somehow, suddenly, it didn't matter as much as it had before...
-
-`
+content: "  I loved him the moment I saw him. I had left my heart at home, but he had a box of matches. He offered me a light. As our skin touched, his match went out and he smiled a smile that let me know he understood what it was like to be restless, like me. We were married six weeks later in a small ceremony on the beach as the sun set over the horizon, a vision so magnificent that for one second my heart forgot to feel empty.  Throughout my childhood my mother warned me about men like him. She is very religious and believes that all things can either be used or cast away. My mother is like a sea sponge, absorbing everything from her surroundings like water fills every crevice in its porous texture until there is no more room to add another drop of water and no more room for air and it becomes saturated with its own self-loathing until it cannot bear the weight of its own existence any longer and it sinks to the ocean floor and dies in agonizing surrender. What had she absorbed about men that she could so easily predict our fate? Life is not an inevitable march forward, but sometimes joins us with our destined partner before we even know they exist - can we truly expect anything else? The man upstairs plays out his symphony for us; we are merely instruments in his odd orchestra.  ",
 },
 {
 id: 39,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `"I'm bored," Max said. "Let's go to a party."
-
-"All right," Lily agreed. "But it has to be a good party."
-
-"Why?" asked Max.
-
-"Because I don't want to go to any old party," Lily explained. "I want to go to a party where there will be fun, and fun only."
-
-"What do you mean by fun?" Max questioned her. "Are you the kind of girl who goes crazy at parties?"
-
-"No," Lily said; then she added: "But I do like to enjoy myself, and that's why we have to go to a really good party tonight."
-Max laughed at her, but he knew it would not take much effort on his part to make the evening enjoyable for both of them. He had been waiting for her all day; now, when they were both free, they could spend the whole evening together, doing whatever they pleased - as long as it was fun! They both wanted something new, something different from the way they usually spent their evenings; something unexpected and exciting... And then it happened... They found themselves in the middle of a mad crowd at the hottest dance hall in town! And there was no turning back... They danced until three o'clock in the morning! And that was just the beginning! From then on everything became exciting: their conversations were more interesting than ever before... Their walks were filled with laughter... Their quiet moments were beautiful - so beautiful that neither of them ever wanted them to end! But how`
+finish_reason: "stop",
+content: "They were architects, but they spent their lives building the smallest things: trinkets that fit in a palm of a hand, roses that could rest in someone's hair. But when they were married, they began to build bigger things ' castles with faithful sentinels for servants and turrets with carved columns, waterfalls flowing with emeralds and replicas of themselves; redoubts where their enemies would sleep forever; towers big enough for all the winds of time to sweep through. They built these structures deep in the woods where no one else would see them, and their hands slowly became hard from pushing against the canvass before them. At night, they slept on separate sides of the room; he on a bed whose frame was made from two pieces of oak that had been sawn into shape by his own hands; she floating on a raft made out of glass plates inlaid over an invisible flotation device. Once every month or two months or three months he would lay her down on this raft-bed and kiss her as she floated across the night sky towards their secret mountainside castle.",
 },
 {
 id: 40,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max was tired. He had been working all day long and he just wanted to go home and go to bed. He was walking down the avenue on his way home when suddenly a girl ran out in front of him.
-
-"Help!" she screamed as she ran across the street. "Somebody is chasing me!"
-
-Max stopped and stared after her. It seemed to him that she had run out in front of him on purpose, so that he would catch her and save her from whoever was chasing her.
-
-"Wait here," Max said, "while I see what's going on." Then he ran after the girl who was now standing at the door of a building, waiting for Max to come up behind her. But he did not come; instead, he turned back towards where she had come from, running hard and fast across the avenue until he saw a man running towards him. The man turned into a dark alley and Max followed him along it until they both came to an old garage which didn't seem to have any door or windows at all; only an old tin sheet leaning against one side of it would have let anyone enter or leave it easily. The man stopped there under the tin sheet and tried to hide behind it, but Max reached out quickly with one hand and grabbed his shoulder before he could move away again.
-
-"What's going on?" Max asked as he looked down at his captive with fury in his eyes: "Who are you?"
-
-"Let me go!" the man yelled out in fear as he tried once more to get`
+finish_reason: "stop",
+content: "The colours of the rainbow; my love for you, returned. When I was a small boy, I would press my face up against the sweetshop's windowpane and gaze on its array of colourful sweets ' reds like strawberries and yellows like lemon, oranges like sunsets and purples like thistles. On the shelf next to them lay an array of shiny chocolates in striking hues of green, blue, pink and brown. A boy next to me asked his mother why the chocolates were bound so close together inside the glass case, as if they had all been made in one mould or something. 'Because they don't mix with one another,' she replied. I could barely contain my excitement at her words and ran into my father's arms crying out that I want an Apollo Bar - round and purple as a grapefruit with thick vanilla creaminterwoven through it ' but when I got back to the glass case it must have sold because there was one missing from its ranks. My mother told me that things were too often not as simple as we wanted them to be. 'You should have just asked for another chocolate altogether then!' My mother was always full of good advice and always right but that was later on in our lives; at this moment we were simply two children staring up at a busy glass case filled with gaudy, multicoloured confectionery, ignorant to what lay ahead for us in life.",
 },
 {
 id: 41,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `"What makes you think you know so much about me?" Lily asked Max.
-
-"What makes you think I know so much about myself?" he countered.
-
-Lily thought for a moment. Suddenly she realized that she did not know anything about Max except his name. She did not even know where he lived or how old he was or what he did for a living. But it didn't matter, because they were in love and nothing else mattered except that they were together and that everything else had been just talking before that moment when they stood looking at each other in the bright light of a street lamp on Friday night at eleven-thirty when everyone else was dancing and having fun but them...
-
-"I don't care if I never find out anything about you," Lily said with sudden decision, "as long as I'm with you."
-
-"That's funny," Max said, "I was just thinking the same thing." He took her hand and kissed her palm gently; then suddenly his lips were on hers and their lips opened to each other in a kiss full of sweet promise...
-
-`
+content: "He desires her like he desires books to read, as if the two are inseparable entities. But when they're together there are no words between them, only heavy, rapid breath and the closeness of their bodies. She will kiss his scars as if they were her own, all the while tracing a path from one to another with her fingers. Seasons pass and somehow he never manages to leave here, this small town with its small house up on a hill overlooking the sea, but everything is okay. When he watches her sleep at night he thinks of the young boy she used to be; she still has that cute mole under her ear but now it's surrounded by peach fuzz. He longs for another short adventure with her and soon she will want him too, like he already wants her back. It's like looking into a window at night to see the future illuminated by love's bright glow; it will happen inevitably and suddenly in an instant without warning or preparation and will end just as abruptly with hope evaporated into thin air.",
 },
 {
 id: 42,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It was a hot summer day. Bill sat in his car with the door open, enjoying the breeze that came in from the street below. He had been sitting there for half an hour and he was bored. He glanced at his watch and saw that it was three o'clock.
-
-Bill sighed and looked out at the people passing by in the street, wondering what they were all doing on this hot summer day. He noticed a girl walking down the sidewalk staring into shop windows as she walked along with a dreamy look on her face. She was wearing a short dress which showed off her long legs and she seemed to be enjoying herself very much, he thought as he watched her walk by his car.
-
-Bill lit a cigarette and sat back, waiting for something to happen. He waited until five o'clock when he knew that his office would be closing for the day; then he decided to go into town to have dinner with someone who worked in his office and who lived downtown .
-
-Bill got out of the car and went up to the lady clerk behind the reception desk where he worked in an office building downtown . "I'll be away tonight," he told her; "I'll probably be back tomorrow morning." Then, without saying anything else, he walked out of the building and got into his car again; but instead of driving downtown , Bill drove out towards home because it was such a nice evening...
-
-`
+content: "They were both named for islands, one with a population of over ten thousand, the other a sea-faring legend that came to grief in a hideous storm. The younger woman's father always thought it was cruel to call his daughter after such a tragedy. But he forgot, every time he called her by her name, that she was also one day destined to suffer it herself. One day she lost a tooth and they played havit (a children's game where you pick another child and shake hands.) She saw the boy's mood change as soon as they shook hands and his grey eyes froze over in pain. He took the tooth that had been hers all along, the tooth that had been stuck into the ground beside him and hidden with his brother's so long ago. She sobbed noisily and clutched her hand; he fled without making eye contact. To this day she wonders what went through his mind when he saw hers; whether it reminded him of something else too; whether it brought back memories he didn't want to relive; whether she looked too much like someone from his past who no longer made him happy.",
 },
 {
 id: 43,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `"How do you feel?" asked the doctor, looking at Lily.
-
-"Weird," Lily said. "I feel weird."
-
-"It's hard to believe you are going to have a baby in three months' time," the doctor said. "You look so young."
-
-"I'm not that young," Lily protested. "I'm twenty-one!"
-
-"You don't look it," the doctor said. "You look like a little girl." Then she smiled and added: "But don't worry about it, you'll be all right." She stood up and walked around her desk, then she put her hand on Lily's shoulder and told her: "Take good care of yourself; eat well, rest well, and don't worry about anything." She paused for a moment as if thinking about something to add but then she only smiled again at Lily and left the room. The door closed behind her with a click; then Lily was all alone in the room that smelled of medicine. She sighed as she looked at her hands on her lap; they were smooth and pale, with long fingers... It was hard to believe that in three months' time those hands would hold a little baby in them... It was hard to believe that...
-Another love story:  It was May 15th and they had just finished their exams for the semester. David looked at his roommate, Ryan, who was lying on his bed reading a book; he looked up from it occasionally when he heard David getting dressed or when he heard him move around outside his`
+finish_reason: "stop",
+content: "The late summer of love was the first time I ever laid eyes on you, sitting outside The Empire with your Mary Quant dress and mod hair. I never guessed a girl like that would pay me any mind, but she did. She told me to smile and I did. And when we kissed it tasted like blackberries, as if we had been snacking on them all summer. When we smiled at each other it was in code, her cheeks triangulated by mine ' success! It's funny how quickly you forget how much time you actually spend together; my memory of your face has become pixelated and runny from so many afternoons spent pouring over the same yearbook photo. On the tenth anniversary of our meeting that teenage spy girl ran off to Washington to follow a band around for a while, now I kid you not: next thing I hear she's married to an art critic in New York City; still can't picture you as an art critic's wife ' seems too refined for such a mundane job description (which is probably just more grist for her -our- mill.) She's got herself more images up online than are really necessary; twenty years now and still not here.",
 },
 {
 id: 44,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It had been a long, hard day at school. Max was tired and he wanted to go home. He was walking along the avenue, staring at the pavement as he was thinking about his problem in algebra class. He did not notice Lily until she came up to him and asked:
-
-"Do you want to go for a swim?"
-
-"Sure," Max smiled at her. "I'd love it."
-
-They went swimming together every afternoon that week. They became friends. On the following Saturday morning, they decided to get married, and on their wedding night they wrote their own love story... 
-
-`
+content: "They had met at a party, in the basement of an old building, a student club with a red, velvet carpet and creaking floorboards. She was his hero. She painted the blood that streaked across superheroes on the pages of his comic books. He walked up to her after a while, when he'd finished chatting to some friends and she sat alone in the corner surrounded by empty bottles of vodka. He had trouble looking into her eyes; he kept squeezing his own shut or looking at them from slightly below, like worms swimming in dark water. When she finally laughed at something silly he said (he can't remember what it was; it probably wasn't funny), his whole body felt warm with pleasure. And then they walked home together, through empty streets and wet grass, in silence. All week she stayed in his head like some kind of disease or weird kind of fever. At two in the morning on Sunday he got up again and found her on Facebook'that's when they realised that they both worked for the same publisher'they texted all night long until finally there came a time when neither could think of anything new to say. By then they were too invested anyway; all that was left was to meet up again, if only to get some sleep and finish talking about where they liked drinking coffee and what movies made them cry and stuff like that.",
 },
 {
 id: 45,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `"Did you have a nice weekend?" Max asked Lily as he walked into the office.
-
-"Yes," Lily said, "but I had to work all day yesterday."
-
-"Why?" Max inquired. "Do you have a new job or something?"
-
-"No," Lily explained, "but I was just too tired to do my own work, so I did my boss's work instead. He wasn't there, but he didn't notice what I was doing."
-
-"Oh," said Max; "I see. What did you do for fun on Saturday then? Did you go out for dinner or anything?"
-
-Lily smiled at the question. She remembered going out with her friends on Saturday evening and having a wonderful time; she remembered enjoying the music and dancing until two in the morning. But she told him that on Saturday night she had gone to bed early because she had to get up early in the morning to go to the office again...`
+content: "  When I met her she was a half-eaten orange, lying with her peels sprawled all around her like discarded metal petals. She wasn't human then, but I didn't care. Oranges are the best lovers anyway: so fragile and juicy, they have the sweetest skin and tender sides that you can pin to your lips. I knew she was not what she seemed: a sweet angel fallen from the Heavens, but it didn't matter to me. It wasn't until after I'd eaten every part of her out of existence that she told me that if you don't die when you're bitten by a vampire, you become one yourself. I told her that vampires are impure creatures full of ill intentions; that they are not like the fair children of sun-drenched days too vivid and unreal to be true; but for all my scare talk there was nothing to say about the hunger inside me: my heart wanting nothing more than to be swept off its feet by a kind stranger with devious intentions.  ",
 },
 {
 id: 46,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `"It's almost eleven-thirty," Lily said.
-
-"Yes," Max replied. "I guess we should go back to the dance hall."
-
-"Oh, Max," Lily said with a sigh. "I wish this night would last forever."
-
-Max looked at her and smiled: "It will last forever, you know." To prove his words, he took her hand and kissed it. He did not want to kiss her lips because he thought that if he did, he would never be able to let her go.
-
-Lily took a deep breath: "Let's go," she said and they began walking back to the dance hall without letting their hands part from each other. When they reached the hall, everyone was going in. "I guess we should get in line too," Lily said. She did not want to dance again but she wanted to stay with Max as long as possible. It seemed that everyone else in the world knew how happy they were except them and somehow it made them feel sad about it all; so sad that they could not even talk about it when they stood waiting for a chance to enter the hall. They just stood there looking at each other as if trying to read what was on each other's mind and as if trying to remember everything about each other so they would never forget… Suddenly Max bent down on one knee and took something out of his pocket: It was a ring with a beautiful diamond in it; it shone brightly in the light of lanterns hanging from trees near by… He held out his hand towards Lily`
+finish_reason: "stop",
+content: "  I tried to be like the other kids, to fit in with the boys, but every day ran into more tricks designed to exclude me until I was alone, excluded from the games and cajoled into helping on the farm. My grandmother was proud of the farm. She raised roses there and grew her own food, dug up potatoes and carrots from the earth. All work and no play makes Jack a dull boy, she said, so she taught me how to milk and killed fish for dinner. My mother didn't come home; she'd got hooked on men who liked skinnier girls and went to jail for trying to sell my sister into prostitution when she was just sixteen years old. Sometimes we'd go visit them both in jail. I'd sit next to her on the bed while they talked through a metal grille like a goddamn prison movie. Sometimes we ate food off trays with plastic cutlery: beef stew and cornbread made with lard; just pretending none of it was real.  ",
 },
 {
 id: 47,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max stood before the full-length mirror in his room and carefully looked at himself. He was wearing a brand new suit and a clean shirt. His hair was neatly combed and he had shaved off his beard. He looked exactly the way he wanted to look. This morning, he had been called for an interview with the manager of a big firm where he wanted to apply for a job as an accountant.
-
-Max was nervous but very confident that he would get the job. He had worked hard for it; after all, he felt that everything depended on his appearance today...
-
-He put on his coat and headed for the door, but suddenly stopped in front of the mirror again - he could not help himself - and once more inspected every detail of his appearance. Then he hurried out into the street and walked towards the big office building where he would have to go through several interviews before being accepted or rejected...
-
-`
+content: "  When we met, she was wearing a monocle that made her look like a racoon. I took it off in a fit of passion, but the moment I did she was transformed and no longer beautiful. I felt like the Prince who awoke the sleeping beauty with a kiss. When we kissed for the first time, my beard scratched her chapped lips and I almost cried. It put me off kissing boys for a long time, but I was smitten nonetheless. Even though she spent more money gambling than she earned from her hard job as an accountant and got away without paying at least once every two weeks, I fell for her just the same. The way she looked at me with those wide brown eyes, it was so sincere you'd think she really could see through me to my heart (which shattered into a million pieces behind my ribcage). She's been leaving smaller pieces of herself ever since we broke up six months ago.  ",
 },
 {
 id: 48,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max stood there, looking at her with a grin on his face. He had been waiting for her to come back from the bathroom for over an hour and now he was getting impatient.
-
-"Are you going to dance with me or not?" Lily asked him, taking his hand and leading him out onto the floor. "I've been waiting for you all evening."
-
-"I'm sorry," Max told her. "I got carried away talking to my friends."
-
-"You always do," Lily said, smiling at him in the dim light of the ballroom where they were dancing. "But I don't mind." She stopped dancing and said: "Will you ask me to marry you?"
-
-Max stopped dancing too. He looked at her and said: "How can I? You know I can't afford it."
-
-Lily shrugged her shoulders and walked away from him towards the door; then she turned around: "Wait for me," she said before disappearing into the night. Max stood there alone on the dance floor waiting for Lily to return so that they could finish their dance together; but Lily never came back...`
+content: "  'I loathe silence.' She remembers when he said that to her, quietly, his thin black line lips barely moving. He had just gotten over a breakup and was really into her, and told her this in one of those moments they had alone together in the apartment he said was his but really wasn't. It got awkward between them afterwards, and neither of them ever mentioned how things weren't that serious anyway and both of them could stand to give more to life than they were used. Once he flew into a rage because she hadn't noticed when he changed the station on their radio, slammed a vase or two for effect, locked himself up in his room with a bottle of booze ' all things they didn't need ' sent a scare through the whole place, frightened the cat shitless, that small grey-white kitten she kept as nine lives insurance in case something terrible happened. The main thing she remembers, though, is how only then he talked about what was going on inside him; it took screaming at everyone else not to for him to find the courage to say two words about his feelings: my fear of dying alone' ",
 },
 {
 id: 49,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily and Max walked up and down the avenue, talking comfortably about everything and anything until finally, they found themselves looking at each other with amused grins on their faces.
-
-"We've been through this before," Max said, indicating all that they had talked about on their walk up the avenue; then he added: "But isn't it funny how you can enjoy talking about yourself?"
-
-"Yes," Lily admitted; "it is funny." Then she asked him: "What makes you think you know so much about me?"
-
-Max laughed at her question: "What makes you think I know so much about myself?" he countered, but his question was not answered because suddenly they realized that they were in love and that everything else had been just talking before that moment when they stood looking at each other in the bright light of a street lamp on Friday night at eleven-thirty when everyone else was dancing and having fun but them...
-
-Lily turned to Max and smiled.
-A feeling of warmth rushed through her body as she looked into his eyes. She felt like running away with him, far away where no one would ever bother them. The two of them would never have to leave their room again; they could just stay there together, happy forever. Ah, if only love would last forever! But no, it could not be like that; it had to end sometime... Anyway, now was not a time for sadness. Lily smiled again as she thought of how happy she was this very moment. Why waste time thinking? Tomorrow would come soon enough`
+finish_reason: "stop",
+content: "  He tells her that it's a once in a lifetime opportunity, more important than anything else he does. She says that she understands, but then turns away, hugging her pillow tightly to her chest as she smokes the inside of the bed sheets. She prays every time the fight starts again, begs God to take this all away from her; days and days of nothing but smoke and ash, cigarette burns that appear on her breasts like stars. What's left when the ashen remains are swept up and thrown away? When you strike a match you destroy whatever is lying there in front of you. So much more disappears than just what you have first thought: flesh becomes unruly ash that can't be collected up for yourself or anyone else with whose stick you might be matchmaking; skin becomes so brittle it breaks like paper underneath your lover's tender touch; bones can never be saved for later use no matter who is its guardian. No one lives long enough to make love with ash except phoenixes, who live on flames they kindle themselves. Everyone else has to settle for skinned knees or blackened fingers or torn ears'and ash isn't good conversation anyway.  ",
 },
 {
 id: 50,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily was standing at the window of her room that overlooked the avenue, and she was looking out into the night. Max was sitting on a chair in the room, reading a book by the light of the lamp beside him. He looked up from his book occasionally to look at Lily, and then he would go back to his reading.
-
-It had been raining for a week now and Lily was feeling depressed. She had developed a cold after going out in her raincoat without an umbrella. She spent most of her days in bed with a hot-water bottle on her feet and a cold compress over her forehead. She would cough feebly from time to time and she could barely keep herself awake all day long to read or listen to music on the radio. It had been like that for five days and Max had been taking care of her since Monday: bringing her warm milk to drink, changing her hot-water bottle when it got cold, putting more coal into the stove when it began to cool down in the evening, bringing up blankets when it began to get chilly at night...
-
-He never said much during those days because he knew she was not well enough even to talk, but he did things for her with an ease which showed how much he knew about sickness; he brought things smoothly into their place as if he were used to do such things every day of his life; as if they were old married people who shared all their secrets together...
-
-Lily was coughing again now and Max got up from his chair immediately. He came over to where Lily stood and`
+finish_reason: "stop",
+content: "Overheard on a bus, a man tells his wife that he loves her. She nods, and then, under her breath: 'It's complicated these days'. He turns to look at her during the lull between bursts of chatter. It's easier now, because everyone is too busy looking at their phones. She, gently running a hand over his shoulder and neck, understands that this has absolutely nothing to do with him (and everything to do with aging). Over time, light begins to register on sunglasses as brightness decreases: beige mixed with honey ' something one could drown in and fall into; vanilla mixed with malt: color so like herself it was simple to lose herself ' almost like ending up in a rippled pond; chartreuse mixed with blueberry: something exclusive for those who have always been good in spite of their worst instincts; rose petal ' darkening into geranium which then blends seamlessly into plum so dark that it spread fresh violets across the spectrum by its shadow. The only memory he possess is calling out loudly as they enter the tunnel together for the last time. She lies spent by his side whispering 'Just don't die on me yet' against his shoulder ------------- Lights down, please! Thank you!!! ---------------",
 },
 {
 id: 51,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Cinderella
-
-Once upon a time, there was a young girl who lived in a small town with her two stepmothers and two stepsisters. She worked hard all day, and always wore rags and went barefoot. Her stepsisters were beautiful and wore fine dresses. They were cruel to her, but she did not complain. Her only friend was a little bird who lived in the attic of the house where she lived.
-
-One day the prince from another country came to visit the king of that country. The prince was handsome, gentle and kind. He asked people to dance at the ball, but no one wanted to dance with him because he had come alone – without his parents or friends – so everyone thought he was poor. Then he saw Cinderella sitting by herself in the corner of the ballroom; so he asked her to dance with him – he did not know who she was or that she had no gowns for such a grand ball; all he knew was that she looked like an angel in rags, so innocent and sweet. They danced together until midnight when all the girls ran away as if they had seen ghosts (which they thought they had). But Cinderella stayed behind because she loved him very much already even though they had just met; then Cinderella ran away too because she did not want him to find out who she really was: a poor girl wearing rags who worked hard every day...
-
-`
+content: "When I met my soulmate we were both in the process of trying to make some sense out of our in-betweennesses: the writer at a science convention and me at painting, both listening earnestly to our own audiences, elaborating on current theories and coming up with new things we thought should be tried. Our approaches seemed almost identical, but we did not quite meet because she was trying to write something novels would be written about, and I could only paint with my hands. Nearly forty years later (and now both retired) we crossed paths again at an online museum for paleontology where she was clicking on images of fossils from 1987, when two years ago I had approached her and asked if she knew any convincing white penises for sale along the avenue; oh! those recollections were so far away'yet recapturable'involving her niece who made illegal phosphorescent pets. Recapturable yet lost.",
 },
 {
 id: 52,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It was Thursday night and Max was at the dance hall. He had been there for three hours and he was not having a good time. He looked around at the people dancing and talking to each other, but he could not find anyone interesting enough to talk to. So he went out on the balcony where he sat alone looking at the street lights below him.
-
-He thought about Lily. She had been away on a trip for a whole week, and now she was back in town. He wanted to see her again, but he did not want to go near her house because he did not want anyone else asking him who she was or why he wanted to speak to her. Max liked Lily a lot, but it was too soon for him to introduce her to his friends; so until then, he did not want anyone else knowing that she existed or even being able to find out who she was.
-
-The music started playing inside again and Max left the balcony of the dance hall with a sigh; it was ten-thirty: time for him to go home anyway.
-
-As he walked home from the bus stop towards his apartment building, Max wondered what Lily would be doing at that hour of Thursday night. He hoped that she would be asleep by then... It was too late for them to do anything together now anyway... Tomorrow morning they would see each other again... It would be all right tomorrow morning... They could do something then... In fact, what they would do tomorrow morning might just turn out better than a dance hall... Even though their first meeting had taken place`
+finish_reason: "stop",
+content: "Someone once told me that when it comes to love there's only one emotion worth exploring: Your partner is always leaving you. In a week, a month, a year. Of course you have more than one kiss in your lifetime. But you have only one goodbye. And this is the truth behind every heartbreak and every romance. Who could deny this heartbreaking sadness and loss when we're enveloped by the mystery of love? Isn't that feeling incomparably pure and absolving? There's nothing ignorant about heartbreak, nothing uneducated when it hurts this much. The trembling in my hands right now is proof that there's more to love than what we've allowed ourselves to believe. When it comes to endings we all start our own story somewhere mysterious ' maybe it starts at any moment, as when the glass lady steps off her altar for the first time, bruising her foot on an old manhole cover she hadn't realized had been left by American engineers decades ago.",
 },
 {
 id: 53,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily was standing in the middle of the room, holding a glass of whisky and soda in her hand. She was not drinking from it, just holding it.
-
-She was looking at the people at the party. They were all strangers to her. She had been invited by a friend who had suddenly decided to go to Paris and had asked Lily to take his place.
-
-Lily was bored. She wanted to go home. But she did not want to leave before her host returned from Paris, so she stayed on at the party and tried to be interested in what was going on around her.
-
-She stared at the people here and there in the room. They all seemed to be crazily dancing with someone, or else sitting at tables drinking and laughing loudly. There did not seem to be any quiet and sober person at the party, except for one man who stood alone near a window looking out into the street below. He had dark hair and his back was turned towards Lily as she watched him from across the room where she stood alone with her glass of whisky and soda in her hand.
-
-Who is that man? Lily thought as she put down her glass back to the table and slowly walked towards him: Who is that man? She still wondered when she stood opposite him, looking into his deep black eyes which were smiling at her over a glass of whisky and soda he held in his hand: Who is that man? What is he doing here? Why is he smiling? Is he expecting someone? And why am I so fascinated with him when there are so`
+finish_reason: "stop",
+content: "I could sing and sing till the sound of my voice filled every corner of this world with an angelic tenderness, but I won't. All you would hear is the sound of my lips trying to shape your name, all you would see is the love in my eyes, my heart if only one of them was functioning. So I am singing anyway. First you were just where I wanted you to be, close but far enough to inspire a signal into existent reality, *now*. You walked away this time; locked yourself up in a military prison in a mountain without exits or gates or doors. In due course, that place was razed into oblivion. Tsunamis and firestorms returned its remains to Adam's Clay from which we came: sandstone granules suspended in ballast-bottomed rain clouds. The scientists conducted tests pursuing your legacy; when they finally did make it back home someone better suited for your scientific pursuits explained that ye had claimed exaequo first place with another heroine in the field: they found signatures of fusion-bound transmutation isotopes proportional to 1 inverse diopecon over 1 set conjunctively stately crowned with 22 interdependent digitals X 88 (a finite number symbolising infinite possibility) by our scientific posterity at alchematically diverse locations leaving them with an impossible multiplicity of empirical answers - numbers without dimension, nebulous mathematical ideals buried deep within near every statistically significant popculturocture.",
 },
 {
 id: 54,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max looked at the girl sitting across from him; she was smiling. She was Lily. He had met her a week ago and he had been crazy about her ever since.
-
-"What are you thinking?" Lily asked him, putting down the book she was reading.
-
-"I'm in love," Max said, and he meant it.
-
-Lily, however, did not believe him. She thought he was just telling her what she wanted to hear...
-
-`
+content: "  She took her glasses off when bedside for lovemaking, pressed closely in the flesh flush, ran her fingers through his hair, pulled him down to an embrace. Time dropped away and she told him stories of the city that ticked on endlessly around them. When lovers twined together it was easy to know where one began and the other left off but reciprocity was a habit for them and with each iteration they folded into each other.  Awakening he knew something had changed in those dark early hours. It was as if she had left invisible signs along the worn path of their stockings and pantyhose where he found soft strands of grey amid heather-shaded satins. He returned from an oatmeal breakfast still unready to look in a mirror. While irate clients banged on office doors demanding immediate satisfaction he was reaching toward paths not yet parted by time wondering why those paths sketched frames around of a woman who wasn't quite his wife any more.  ",
 },
 {
 id: 55,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `It was the end of a long, hard week, but when he saw her on the street corner, his heart skipped a beat and he felt more alive than ever before.
-
-She was crying. He couldn't keep himself from going up to her and asking her what was wrong. She said she didn't know. Maybe it was something she ate. Or maybe it was because she had to wait for the bus home while watching everyone else walk off without having to wait for one. He offered to walk her home, and she told him how nice that would be but that they'd never get home before midnight. It was already eleven in the evening and he had to be at work by seven in the morning. He suggested taking a taxi, but that meant money that they didn't have, and anyway, it wouldn't get them there any faster than walking would.
-
-"I'm sorry," she said with tears in her eyes as she stood up and prepared to board the bus that would take her away from him forever if he didn't do something right then...
-
-Write a love story:
-"Don't go," he begged as he stood up and held out his arms towards her in total desperation; but Lily just looked at him with tears in her eyes and then boarded the bus without saying another word or even turning once back towards him... She just disappeared into the night leaving nothing behind but one last view of herself standing on the steps of the bus with tears streaming down her cheeks as it drove away into the night... And so, all alone on the street corner with`
+finish_reason: "stop",
+content: "  When the balcony door was wide open and the breeze came in, we forgot everything. The door shut behind us, and all four walls were suddenly barriers against the illicit storm outside. It was like being in a steampunk-inspired game of tag, dodging unseen pursuers, hiding beneath potted plants and behind chairs. Clutched in breathless laughter beneath the mauve ottoman, I knew why I'd never been allowed downstairs before. This house was dangerous to me; now I understood why my parents had forbidden me to go out of doors without a coat in winter: no wonder there were icicles at all times on the roof of my childhood home. Part of me yearned to jump through a shatter-proof window and run across frozen grass barefoot to prove their bravery wrong (but then another part shuddered at such a futile act) because I could never be like them. They could have opened the balcony door without shattering on impact: tears suddenly came to my eyes, thinking that they should have taken me with them when they left. ",
 },
 {
 id: 56,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max was tired of life. He did not know why he was born. He was not really happy and he did not like the things around him. His job, his wife, his children, everything...
-
-He only liked to sit on the shore of the lake and watch the lights slowly disappearing as the sun rose higher in the sky each day. The sun seemed so much bigger in those early hours of each day when Max sat by himself and kept still, watching its slow journey from east to west across the sky.
-
-After a while Max would get up, stretch himself and go home for breakfast with his family. And as he ate breakfast with them, he would wonder again why he had been born into this world to live such a dull life with people who bored him to death with their talk and their constant demands on him that he pay attention to them and what they were doing or saying all the time.
-
-Max did not want to live anymore! He did not want to eat breakfast with his family every day. He did not want to go to work where everyone expected him to smile at their jokes even though they were boring and stupid jokes that even children would have laughed at if they had told them! Max wanted to die! And yet...he did not want to die either! He was confused about everything in his life and felt that there must be some way out of all this boredom...some way out of this cloud hanging over his head in which there was no sunshine or happiness...some way out of his loveless marriage...some way out of being stuck in`
+finish_reason: "stop",
+content: "  Five minutes after he'd sat down on the bus, I was looking heart-eyed at him. Same route to work every morning; I had these ritual moments of trepidation: Would it be him? Of course, every day, by the time we reached the bus stop, we made eyes at each other. Sometimes I'm allowed to hold his hand for a minute or so before he became unbearably flirty. Then I'd lose it again as he walked up the steps, climbing over me as the doors turned closed. Today was different though ' well completely normal really ' but today we spoke in our hearts: so quick and quiet, everything happened so quick and quiet, our hands joined together almost admittingly through doors of glass windows and between a sheet of rain. It was inevitable: that we were to have this secret ' totally innocent to anyone watching ' but such an insatiable sensation of butterflies in my chest for hours afterwards ' unutterably euphoric.  ",
 },
 {
 id: 57,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `"I'm sorry," said Lily. "I didn't mean to be rude."
-
-"I didn't mean to be so serious," Max said, and smiled at her.
-
-"Do you want to go for a walk?" Lily asked him. "The night is beautiful."
-
-"Yes," Max said. "Let's go for a walk." And they turned and walked down the avenue, not in the direction of the dance hall, but towards a park where they sat on a bench and talked about everything and anything until finally they found themselves looking at each other with amused grins on their faces. Just then it started to rain...
-
-Write a love story:
-Max was standing in the middle of the room looking around him as he sipped his drink. He was bored. He wanted to go home, but his host had not returned from Paris yet so he waited for him patiently while all his friends tried to entertain him by dancing with him or asking him questions or telling jokes or talking about everything under the sun until finally Max became irritated by all their efforts and decided that it was time for him to leave, but no one noticed that he had gone because everyone else was busy having fun...
-
-`
+content: "  Every year on Parakkasi Day, her husband made a habit of secluding himself in his study -- away from the chaos of their party-mad town, away from the drunken antics of the friends who didn't stop coming once they were invited over. Up he went, leaving his smiling wife with his colleagues and friends and empty bottles of liquor, lifted from dry gulleys. Up he went because up was his favourite direction. Up was all that remained once he had travelled east and south and west and north. Away from Galle, across bridges in Colombo across mountains into dark factories painted safe colours where bombs waited to detonate into a squiggle on strips of graph paper in the field that shot up arms for Toteia and her baby bomb victims killed near police stations where her bed stood soft with flowers or emptiness because there were no flowers because there was destruction --- away. Away from their town which never had places where people couldn't hear you scream so well -- he climbed up toward the sky otherwise known as Sri Lanka ... towards clouds surrounding calm blue lakes covered by grey sheets taut with mauve ribbons - These are how memories appear to astronauts looking back down at Earth ... Or Neptune seen through Uranus --- Away -- towards no one knew what. Maybe some sort of bliss?  ",
 },
 {
 id: 58,
 finish_reason: "stop",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Lily was standing in the middle of the room, holding a glass of whisky and soda in her hand. He was not drinking from it, just holding it.
-
-He was looking at the people at the party. They were all strangers to him. He had been invited by a friend who had suddenly decided to go to Paris and had asked Max to take his place.
-
-Max was bored. He wanted to go home. But he did not want to leave before his host returned from Paris, so he stayed on at the party and tried to be interested in what was going on around him.
-
-He stared at the people here and there in the room. They all seemed to be crazily dancing with someone, or else sitting at tables drinking and laughing loudly. There did not seem to be any quiet and sober person at the party, except for one woman who stood alone near a window looking out into the street below. She had dark hair and her back was turned towards Max as he watched her from across the room where he stood alone with his glass of whisky and soda in his hand.
-
-Who is that girl? Max thought. He put down his glass back to the table and slowly walked towards her.,,, She turned back.,,, "Hi," he said...
-`
+content: "  The first time Katya saw Anatoly she called his legs 'flap-legged', referring to their feline grace as he moved across the stage as if he were swimming in the Russian winters. As the audience clapped and young Anatoly managed a shy curtsy, Katya glowered down at her ironed skirt with its neat hem that stood like split petticoats pooling on either side of her. She felt longing edge in, then hesitate. She'd never acted except as camera girl. So she watched the young birch trees along the shoreline sway from one side of the world to another and tried not to feel sorry for herself when she realised Karina was watching with her an impossible giddiness in her voice, sparks from her excitement sweeping down Karina's arms into golden glowing wings embedded deep within her lungs, urging her on towards liberation. But when Susanna joined Katya by the river all she said was how much they both wished to fly. That night Katya lay in bed and sketched light falling across snowy pages with tiny delicate frozen wet kisses she left behind.  ",
 },
 {
 id: 59,
-finish_reason: "length",
-openai_id: "cmpl-2iUCiU7SeM55kt4QCMYz8FIMi0jUE",
-model: "davinci:2020-05-03",
-content: `Max invited me to the lake for the weekend. On Friday evening, he met me at the bus.
-
-"I'm glad you're here," he said, as we began to walk down the familiar avenue to his home. "I missed seeing you recently."
-
-"I have been busy with school," I told him. "It's hard studying every day."
-
-"Yes," Max agreed. "I see how that is." Then he added: "I was thinking of asking you to come and stay with me tomorrow, if that's possible?"
-
-"But my parents would wonder where I am!" I cried out in dismay.
-
-Max laughed: "Don't worry about that," he said. "I'll tell them you're visiting some friends! And besides, if we don't get away sometimes, then we'd never be able to... well... get out and see new things... like the lake..." His voice trailed off into a whisper and when I looked up at him, his eyes were full of longing. I moved towards him slowly and he put his arms around me gently and drew me close to him until our lips met in a sweet, tender kiss that sent shivers down my spine. We walked on quietly then until we came within sight of Max's home where his father was getting up from under the hood of his car when we passed by on our way inside. He nodded hello to me with a welcoming smile on his face before wiping his hands on an old rag and going back under the hood again. Then we went in through the kitchen door as Max held it open for me without taking his arm from around my shoulders. All afternoon Max talked about wanting to take me for a sail across the lake and afterwards have dinner somewhere nice ,`
+finish_reason: "stop",
+content: " While the radio was still on, he turned in bed to look at his wife. Her face was a constellation of lines like the Milky Way's between the sheets as she slept.  'How are thee,' she said in her mind. Her body, alas, could not speak anymore, for it had melted down to a trickle over the course of the long years. Queen Loveless saw herself acquiring a new body through which to communicate with different embassadors: frogs and caterpillars, ants and flies ' Though this might sound very foreign or overblown to you who only know speech and walking bodies suffixed with those two dangling cartilages called arms and legs. Two facts: A hive without drones isn't whole nor can it make honey, as even Queen Loveless' host potential bodies were hard to come by; and no interspecies communication (assembly ... wherever) shall be discounted until it has been attempted. Men especially are diligent imitators and joiners once their self-interest is fulfilled so that they sleep better at night (or day).  ",
 },
-];
+]
