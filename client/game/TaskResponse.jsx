@@ -16,6 +16,9 @@ export default class TaskResponse extends React.Component {
       stories: [],
       submitted: false,
     };
+
+    this.handleCopy = this.handleCopy.bind(this)
+    this.handlePaste = this.handlePaste.bind(this)
   }
 
 
@@ -123,9 +126,44 @@ export default class TaskResponse extends React.Component {
         value={story}
         key={index}
         className={isActive + "story story" + index}
+        onCopy={this.handleCopy}
+        onPaste={this.handlePaste}
       >
       </textarea>
     );
+  }
+
+  handleCopy = (event) => {
+    event.preventDefault();
+
+    const selection = document.getSelection();
+
+    this.setState(prevState => ({
+      ...prevState,
+      clipboard: selection.toString().toLowerCase(),
+    }));
+
+    (event.clipboardData || window.clipboardData).setData('text', selection.toString());
+
+    return true;
+  }
+
+  handlePaste = (event) => {
+    let clipboardData = (event.clipboardData || window.clipboardData).getData('text');
+    
+    console.log(this.state.clipboard);
+    console.log(clipboardData);
+
+    if (this.state.clipboard === clipboardData.toLowerCase()) {
+      return true;
+    }
+    else {
+      event.preventDefault();
+      alert("Sorry, pasting something from external sources is not allowed. You need to write stories here in 30 minutes.")
+      return false;
+    }
+
+
   }
 
   componentDidMount() {
@@ -152,11 +190,18 @@ export default class TaskResponse extends React.Component {
     }
     
     if (document.querySelector(".story.active")) {
-      const newNum = this.countWords(document.querySelector(".story.active").value)
+      const textarea = document.querySelector(".story.active");
+
+      console.log(textarea);
+
+      const newNum = this.countWords(textarea.value)
       this.setState(prevState => ({
         ...prevState,
         numOfWords: newNum,
       }));
+
+      // detect copy 
+      textarea.addEventListener('copy', handleCopy);
     }
 
     

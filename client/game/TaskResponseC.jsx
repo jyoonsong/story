@@ -20,7 +20,8 @@ export default class TaskResponseC extends React.Component {
       stories: [],
       confirmed: localStorage.getItem("confirmed") || false,
       submitted: false,
-      drafts: this.props.round.data.drafts
+      drafts: this.props.round.data.drafts,
+      clipboard: ""
     };
   }
 
