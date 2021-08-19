@@ -40,7 +40,7 @@ export default class InstructionText extends React.Component {
           <h3>Payment</h3>
           <p className="instruction-text">
             <b>Base payment: $30 for participation</b><br/>
-            - Requirements: 
+            - Requirements: <br/>
             &nbsp; &nbsp; - Pass a quiz that teaches you how to recognize what we consider “good” stories for the purpose of this experiment<br/>
             &nbsp; &nbsp; - Write as many good 150- to 250-word stories as you can in each of the two 30-minute rounds.<br/>
             <br/>
@@ -52,6 +52,27 @@ export default class InstructionText extends React.Component {
             Ex. Payment for writing 2 quality stories in round 1 only = $0<br/>
             Ex. Payment for writing 1 unacceptable story in round 1 and 1 unacceptable story in round 2 = $0<br/> */}
           </p>
+
+          <h3>Example of a "good" editing</h3>
+          <div className="instruction-text examples">
+            <div className="bad example">
+              <div className="label">The original draft (Before editing)</div>
+              The night was dark and dreary. It had been raining for days, and the wind howled in the trees like a wounded animal. I sat in my car, parked outside her house, staring at the light in her bedroom window. I had to see her one last time before I left for good. 
+              <br/><br/>
+              I couldn’t bear it any longer. The pain of not being with her was too much <b>to bear</b>. She was everything to me, and I knew that she felt the same way about me. But we were too young to be together; we had our whole lives ahead of us, and <b>we could only be together if we were apart</b>. We had agreed that this would be best for both of us – <b>but it hurt so much!</b> 
+              <br/><br/>
+              She would never know how much it hurt me to leave her behind, how every day without her felt like an eternity of <b>torture!</b> But I knew that she would understand why I had to go – she always understood me better than anyone else ever <b>could!</b> And so I waited in my car until the light went out in her bedroom <b>window; then</b> I drove away into the <b>night…</b>
+            </div>
+            <div className="good example">
+              <div className="label">The edited story (After editing)</div>
+              The night was dark and dreary. It had been raining for days, and the wind howled in the trees like a wounded animal. I sat in my car, parked outside her house, staring at the light in her bedroom window. I had to see her one last time before I left for good. 
+              <br/><br/>
+              <b>As I watched her silhouette move around in her window, I felt my heart swell with longing.</b> I couldn’t bear it any longer. The pain of not being with her was too much. She was everything to me, and I knew that she felt the same way about me. But we were too young to be together; we had our whole lives ahead of us, and <b>circumstance had driven us apart</b>. We had agreed that this would be best for both of us – <b>and yet, here I was, unwilling to let go. I wanted, desperately, to go in, to sweep her off her feet. The two of us could elope into our own world, our own fantasy. For a second, my hand shot out and the car door handle, but I hesitated. Reality awaited.</b>
+              <br/><br/>
+              She would never know how much it hurt me to leave her behind, how every day without her felt like an eternity of <b>torture.</b> But I knew that she would understand why I had to go – she always understood me better than anyone else ever <b>could.</b> And so I waited in my car until the light went out in her bedroom <b>window. Then,</b> I drove away into the <b>night.</b>
+
+            </div>
+          </div>
         </div>
     );
   }
